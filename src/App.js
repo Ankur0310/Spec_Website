@@ -1,6 +1,6 @@
 import './App.css';
-import Notice from './Notice'
-import Live_events from './Live_events'
+import Notice from './Components/Notice'
+import Live_events from './Components/Live_events'
 
 function App() {
   return (
