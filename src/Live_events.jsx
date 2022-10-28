@@ -2,8 +2,12 @@ import React from 'react'
 
 function Live_events() {
     return (
-      <h1>hello from live events</h1>
+    
+    <div>
+      <h1>LIVE EVENTS</h1>
       
+    </div>
+
     );
   }
   
