@@ -1,6 +1,8 @@
 import './App.css';
-import Notice from './Components/Notice'
-import Live_events from './Components/Live_events'
+import Notice from './components/Notice'
+import Live_events from './components/Live_events'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
 
 function App() {
   return (
