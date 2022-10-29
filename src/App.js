@@ -1,6 +1,9 @@
 import './App.css';
 import Notice from './Components/Notice'
 import Live_events from './Components/Live_events'
+import Gallery from './Components/sportsPage/Gallery';
+import Events from './Components/sportsPage/Events'
+import Facilites from './Components/sportsPage/Facilites';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <Notice/>
         <hr />
         <Live_events/>
+      <Gallery/>
+      <Events/>
+      <Facilites/>
     </div>
     
   );

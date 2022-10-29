@@ -5,8 +5,9 @@ function Live_events() {
     
     <div>
       <h1>LIVE EVENTS</h1>
-      
+      <hr/>
     </div>
+    
 
     );
   }

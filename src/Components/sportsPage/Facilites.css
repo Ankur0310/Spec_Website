@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: ease 0.5s;
+
+}
+
+.facilites_main{
+    padding: 2rem 7rem;
+}
+
+.facilites_div{
+    background-color: rgb(109, 110, 109);
+    border-radius: 1rem;
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
