@@ -6,20 +6,26 @@
 
 }
 
-.facilites_main{
+.Rules_main{
     padding: 1rem 7rem 2rem;
 }
 
-.facilites_main h1{
+.Rules_main h1{
     margin: 0rem 0rem 1rem;
 }
 
-.facilites_div{
+.Rules_div{
     background-color: rgb(109, 110, 109);
     border-radius: 1rem;
     padding: 2rem 1rem 1rem 1rem;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    
+    justify-content: center;
+    gap: 5rem;
+}
+
+ol li{
+    /* text-decoration:solid */
+    margin: 1rem 0;
 }
