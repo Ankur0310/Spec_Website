@@ -2,14 +2,11 @@ import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Notice from './Components/Notice'
 import Live_events from './Components/Live_events'
-<<<<<<< HEAD
 import Gallery from './Components/sportsPage/Gallery';
 import Events from './Components/sportsPage/Events'
 import Facilites from './Components/sportsPage/Facilites';
-=======
-import Events_desc from './Components/Events_desc';
-import Events_gallery from './Components/Events_gallery';
->>>>>>> dc150327e199a0b0dbb8640acad9bde50e9a5d94
+import Events_desc from './Components/eventsPage/Events_desc';
+import Events_gallery from './Components/eventsPage/Events_gallery';
 
 function App() {
   return (
@@ -30,14 +27,11 @@ function App() {
         <Notice/>
         <hr />
         <Live_events/>
-<<<<<<< HEAD
       <Gallery/>
       <Events/>
       <Facilites/>
-=======
         <Events_desc/>
         <Events_gallery/>
->>>>>>> dc150327e199a0b0dbb8640acad9bde50e9a5d94
     </div>
     
   );
