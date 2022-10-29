@@ -1,13 +1,17 @@
 import './App.css';
-import Notice from './components/Notice'
-import Live_events from './components/Live_events'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
+import Notice from './Components/Notice'
+import Live_events from './Components/Live_events'
+import Gallery from './Components/sportsPage/Gallery';
+import Events from './Components/sportsPage/Events'
+import Facilites from './Components/sportsPage/Facilites';
+import Events_desc from './Components/eventsPage/Events_desc';
+import Events_gallery from './Components/eventsPage/Events_gallery';
 
 function App() {
   return (
     <div className="App">
-            <div class="parallax-1">
+            <div className="parallax-1">
               <h2>Welcome to SPEC</h2>
               <br />
               <h2>IIT (ISM), DHANBAD</h2>
@@ -23,6 +27,11 @@ function App() {
         <Notice/>
         <hr />
         <Live_events/>
+      <Gallery/>
+      <Events/>
+      <Facilites/>
+        <Events_desc/>
+        <Events_gallery/>
     </div>
     
   );

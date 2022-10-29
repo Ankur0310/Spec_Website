@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: ease 0.5s;
+
+}
+
+/* 
+.events_main{
+    border: 1px solid brown;
+    border-radius: 10px;
+} */
+
+.events_heading{
+    padding: 1rem;
+}
