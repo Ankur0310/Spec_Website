@@ -5,11 +5,8 @@ import Live_events from './Components/Live_events'
 import Gallery from './Components/sportsPage/Gallery';
 import Events from './Components/sportsPage/Events'
 import Facilites from './Components/sportsPage/Facilites';
-import Events_desc from './Components/Events_desc';
-import Events_gallery from './Components/Events_gallery';
-import Coaches from './Components/sportsPage/Coaches';
-import Rules from './Components/sportsPage/Rules';
-
+import Events_desc from './Components/eventsPage/Events_desc';
+import Events_gallery from './Components/eventsPage/Events_gallery';
 
 function App() {
   return (
