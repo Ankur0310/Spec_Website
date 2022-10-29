@@ -1,11 +1,14 @@
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Notice from './Components/Notice'
 import Live_events from './Components/Live_events'
+import Events_desc from './Components/Events_desc';
+import Events_gallery from './Components/Events_gallery';
 
 function App() {
   return (
     <div className="App">
-            <div class="parallax-1">
+            <div className="parallax-1">
               <h2>Welcome to SPEC</h2>
               <br />
               <h2>IIT (ISM), DHANBAD</h2>
@@ -21,6 +24,8 @@ function App() {
         <Notice/>
         <hr />
         <Live_events/>
+        <Events_desc/>
+        <Events_gallery/>
     </div>
     
   );

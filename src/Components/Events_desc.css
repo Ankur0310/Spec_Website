@@ -1,0 +1,10 @@
+.container {
+    box-sizing: border-box;
+    border: solid black 5px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+.container h1 {
+    text-align: center;
+    font-weight:bold;
+}
