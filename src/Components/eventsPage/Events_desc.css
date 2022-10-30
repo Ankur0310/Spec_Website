@@ -1,10 +1,12 @@
-.container {
+.events_desc {
     box-sizing: border-box;
-    border: solid black 5px;
-    border-radius: 20px;
     margin: 10px auto;
+    font-weight:bold;
 }
-.container h1 {
+.events_desc h1 {
     text-align: center;
     font-weight:bold;
+    font-size: 40px;
+    color: grey;
+    text-decoration: underline;
 }

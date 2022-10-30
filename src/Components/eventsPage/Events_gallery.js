@@ -94,51 +94,51 @@ function Events_gallery  () {
 <div class="eventsContainer2">
 <h2 className='text-center'>Gallery #2021</h2>
 <div className="border"></div>
-<div className="gallary">
+<div className="gallery">
 <div className="image">
   <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
   <div className="caption">
-    <h1>Image</h1>
+    <h1>Some caption</h1>
   </div>
   </div>
-<div className="border"></div>
+
 <div className="image">
   <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
   <div className="caption">
-    <h1>Image</h1>
+    <h1>Some caption</h1>
   </div>
   </div>
-<div className="border"></div>
+
 <div className="image">
   <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
   <div className="caption">
-    <h1>Image</h1>
+    <h1>Some caption</h1>
   </div>
   </div>
-<div className="border"></div>
+
 <div className="image">
   <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
   <div className="caption">
-    <h1>Image</h1>
+    <h1>Some caption</h1>
   </div>
   </div>
-<div className="border"></div>
+
 <div className="image">
   <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
   <div className="caption">
-    <h1>Image</h1>
+    <h1>Some caption</h1>
   </div>
   </div>
-<div className="border"></div>
 <div className="image">
   <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
   <div className="caption">
-    <h1>Image</h1>
+    <h1>Some caption</h1>
   </div>
   </div>
+
   </div>
 </div>
-
+<h3><a href="#">NEXT PAGE</a></h3>
 <hr />
 </div>
 
