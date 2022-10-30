@@ -81,7 +81,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -350px;
+    top: -340px;
     left: 20px;
     margin: 20px;
     border: 1px solid #fff;
@@ -101,7 +101,7 @@
 .gallery .image:hover .caption{
     opacity: 3;
 }
-@media(max-width: 960px){
+/* @media(max-width: 960px){
     .gallery .image{
         flex:33.33%;
     }
@@ -119,7 +119,7 @@
         width: 85%;
         margin: 30px;
     }
-}
+} */
 
 
 
