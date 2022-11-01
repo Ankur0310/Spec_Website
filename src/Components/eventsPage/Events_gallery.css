@@ -26,7 +26,7 @@
 }
 .eventsContainer1 li a:hover::after{
     width: 100%;
-    transition: width 0.4s linear;
+    transition: width 0.2s linear;
     margin-top: 5px;
 }
 .eventsContainer1 li a:hover{

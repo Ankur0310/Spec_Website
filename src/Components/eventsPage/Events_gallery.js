@@ -1,17 +1,24 @@
-import React from 'react'
-import './Events_gallery.css'
+import React from "react";
+import "./Events_gallery.css";
 
-
-function Events_gallery  () {
+function Events_gallery() {
   return (
-<div>
-   <div className="eventsContainer1">
-            <li><a href="#">2022</a></li>
-            <li><a href="#">2021</a></li>
-            <li><a href="#">2020</a></li>
-            <li><a href="#">2019</a></li>
+    <div>
+      <div className="eventsContainer1">
+        <li>
+          <a href="#">2022</a>
+        </li>
+        <li>
+          <a href="#">2021</a>
+        </li>
+        <li>
+          <a href="#">2020</a>
+        </li>
+        <li>
+          <a href="#">2019</a>
+        </li>
       </div>
- {/* 
+      {/* 
       <div className="eventsContainer2">
 
         <div className="row">
@@ -91,58 +98,78 @@ function Events_gallery  () {
 <h3><a href="#" >Next page</a></h3> 
 </div>*/}
 
-<div class="eventsContainer2">
-<h2 className='text-center'>Gallery #2021</h2>
-<div className="border"></div>
-<div className="gallery">
-<div className="image">
-  <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
-  <div className="caption">
-    <h1>Some caption</h1>
-  </div>
-  </div>
+      <div class="eventsContainer2">
+        <h2 className="text-center">Gallery #2021</h2>
+        <div className="border"></div>
+        <div className="gallery">
+          <div className="image">
+            <img
+              src="https://source.unsplash.com/300x300/?perth,australia"
+              alt=""
+            />
+            <div className="caption">
+              <h1 className="text-center">Some caption</h1>
+            </div>
+          </div>
 
-<div className="image">
-  <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
-  <div className="caption">
-    <h1>Some caption</h1>
-  </div>
-  </div>
+          <div className="image">
+            <img
+              src="https://source.unsplash.com/300x300/?perth,australia"
+              alt=""
+            />
+            <div className="caption">
+              <h1 className="text-center">Some caption</h1>
+            </div>
+          </div>
 
-<div className="image">
-  <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
-  <div className="caption">
-    <h1>Some caption</h1>
-  </div>
-  </div>
+          <div className="image">
+            <img
+              src="https://source.unsplash.com/300x300/?perth,australia"
+              alt=""
+            />
+            <div className="caption">
+              <h1 className="text-center">Some caption</h1>
+            </div>
+          </div>
 
-<div className="image">
-  <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
-  <div className="caption">
-    <h1>Some caption</h1>
-  </div>
-  </div>
+          <div className="image">
+            <img
+              src="https://source.unsplash.com/300x300/?perth,australia"
+              alt=""
+            />
+            <div className="caption">
+              <h1 className="text-center">Some caption</h1>
+            </div>
+          </div>
 
-<div className="image">
-  <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
-  <div className="caption">
-    <h1>Some caption</h1>
-  </div>
-  </div>
-<div className="image">
-  <img src="https://source.unsplash.com/300x300/?perth,australia" alt="" />
-  <div className="caption">
-    <h1>Some caption</h1>
-  </div>
-  </div>
-
-  </div>
-</div>
-<h3><a href="#">NEXT PAGE</a></h3>
-<hr />
-</div>
-
-  )
+          <div className="image">
+            <img
+              src="https://source.unsplash.com/300x300/?perth,australia"
+              alt=""
+            />
+            <div className="caption">
+              <h1 className="text-center">Some caption</h1>
+            </div>
+          </div>
+          <div className="image">
+            <img
+              src="https://source.unsplash.com/300x300/?perth,australia"
+              alt=""
+            />
+            <div className="caption">
+              <h1 className="text-center">Some caption</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>
+        <a href="#">
+          <h2 className="text-center">NEXT PAGE</h2>
+        </a>
+      </h3>
+      <hr />
+    </div>
+  );
 }
 
 export default Events_gallery;
