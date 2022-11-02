@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -9,7 +9,7 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
   list-style-type: none;
-}
+} */
 
 footer {
   background: #edf7fa;

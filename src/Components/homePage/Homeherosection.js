@@ -4,9 +4,8 @@ function Homeherosection() {
   return (
     <div>
       <div className="parallax-1">
-        <h2>Welcome to SPEC</h2>
+        <div className="bosm-heading"></div>
         <br />
-        <h2>IIT (ISM), DHANBAD</h2>
       </div>
       <div className="para-1">
         <p>

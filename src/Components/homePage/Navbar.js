@@ -1,8 +1,37 @@
-import React from 'react'
-function Navbar (){
+import React from "react";
+import "./Navbar.css";
+function Navbar() {
   return (
     <div>
-      <div>
+      <div className="nav-bar">
+        <div className="links">
+          <span>
+            <a>ABOUT US</a>
+          </span>
+        </div>
+        <div className="links">
+          <span>
+            <a>SPONSORS</a>
+          </span>
+        </div>
+        <div className="links">
+          <span>
+            <a>REGISTER</a>
+          </span>
+        </div>
+        <div className="links">
+          <span>
+            <a>CONTACTS</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Navbar;
+{
+  /* <div>
       <nav className="navbar  navbar-expand-lg navbar-dark fixed-top bg-dark">
         <div className="container-fluid">
         <span className="navbar-brand">
@@ -45,9 +74,10 @@ function Navbar (){
         </div>
       </div>
     </nav>
-  </div>
-    </div>
-  )
+  </div> */
 }
 
-export default Navbar;
+{
+  /* <div className="icon">
+          <div className="logo"></div> */
+}

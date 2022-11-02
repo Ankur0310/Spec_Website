@@ -4,13 +4,27 @@
     margin: 0px;
     padding: 0px;
   }
-  
+
+
+  .bosm-heading {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../../img/bosm.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75vw;
+    height: 60vh;
+  }
   /* Styling the first parallax's 
   height, width and background color */
   .parallax-1 {
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.251), rgba(0, 0, 0, 0.459)), url('../../img/ism_building.jpg');
+    background:linear-gradient(rgba(58, 58, 60, 0.367), rgba(23, 22, 21, 0.512)), url('../../img/ism_building.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
   }
