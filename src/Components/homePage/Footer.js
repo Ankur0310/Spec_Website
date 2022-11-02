@@ -27,13 +27,13 @@ function Footer() {
                 <b>Get in touch</b>
               </h3>
               <div className="social">
-                <a href="#">
+                <a href="#" id='1'>
                   <img src="../../img/icons8-instagram-48.png" alt="" />
                 </a>
-                <a href="#">
+                <a href="#" id='2'>
                   <img src="../../img/icons8-instagram-48.png" alt="" />
                 </a>
-                <a href="#">
+                <a href="#" id='3'>
                   <img src="../../img/icons8-youtube-48.png" alt="" />
                 </a>
               </div>
