@@ -1,8 +1,22 @@
 import React from "react";
 import "./Navbar.css";
+import img from "../../img/ism.png";
 function Navbar() {
   return (
     <div>
+      <div className="sidebar">
+        <div className="ham"></div>
+        <div className="ham"></div>
+        <div className="ham"></div>
+      </div>
+      <div className="hamburger">
+        <div className="ham-links">
+          <a href="#">ABOUT US</a>
+          <a href="#">SPONSORS</a>
+          <a href="#">REGISTER</a>
+          <a href="#">CONTACTS</a>
+        </div>
+      </div>
       <div className="nav-bar">
         <div className="links">
           <span>
@@ -16,7 +30,9 @@ function Navbar() {
         </div>
         <div className="links">
           <span>
-            <a href="/"><img src="../../img/ism.png" /></a>
+            <a href="/">
+              <img src={img} className="ism_logo_img" />
+            </a>
           </span>
         </div>
         <div className="links">
