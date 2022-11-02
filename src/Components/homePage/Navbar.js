@@ -6,22 +6,27 @@ function Navbar() {
       <div className="nav-bar">
         <div className="links">
           <span>
-            <a>ABOUT US</a>
+            <a href="/events">Events</a>
           </span>
         </div>
         <div className="links">
           <span>
-            <a>SPONSORS</a>
+            <a href="/sports">Sports</a>
           </span>
         </div>
         <div className="links">
           <span>
-            <a>REGISTER</a>
+            <a href="/"><img src="../../img/ism.png" /></a>
           </span>
         </div>
         <div className="links">
           <span>
-            <a>CONTACTS</a>
+            <a href="/team">Team</a>
+          </span>
+        </div>
+        <div className="links">
+          <span>
+            <a href="/about">About Us</a>
           </span>
         </div>
       </div>
