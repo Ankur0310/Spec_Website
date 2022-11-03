@@ -1,5 +1,8 @@
 import React from "react";
 import "./Footer.css";
+import img1 from "../../img/icons8-facebook-48.png";
+import img2 from "../../img/icons8-instagram-48.png";
+import img3 from "../../img/icons8-youtube-48.png";
 function Footer() {
   return (
     <div>
@@ -28,13 +31,13 @@ function Footer() {
               </h3>
               <div className="social">
                 <a href="#">
-                  <img src="../../img/icons8-instagram-48.png" alt="" />
+                  <img src={img1} alt="" />
                 </a>
                 <a href="#">
-                  <img src="../../img/icons8-instagram-48.png" alt="" />
+                  <img src={img2} alt="" />
                 </a>
                 <a href="#">
-                  <img src="../../img/icons8-youtube-48.png" alt="" />
+                  <img src={img3} alt="" />
                 </a>
               </div>
             </div>

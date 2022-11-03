@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Aero";
+  src: url("../homePage/fonts/Aero.ttf");
+} 
+@font-face {
+  font-family: "BigNoodleTitling";
+  src: url("../homePage/fonts/big_noodle_titling.ttf");
+}
+ @font-face {
+  font-family: "Roboto";
+  src: url("../homePage/fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Segoe";
+  src: url("../homePage/fonts/Segoe UI.woff");
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  .live_events
+  {
+    background-color: #edf7fa;
+  }
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    font-family: BigNoodleTitling;
+  }
+
+  .container {
+    width: 100%;
+    height: 80vh;
+    background-color: #ffffff00;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .carouselContainer {
+    width: 60%;
+    height: 85%;
+    margin: auto ;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .carouselImgs {
+    width: 100%;
+    height: 100%;
+    animation: fade 1.5s;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  .carouselImgs img 
+  {
+    border-radius: 0.5rem;
+  }
+
+  .carouselImgs img:hover
+  {
+    transform: scale(90%);
+    opacity: 80%;
+    
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 44%;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 4%;
+  }
+  
+  .next {
+    right: 4%;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media screen and (min-width: 910px) and (max-width: 1180px) {
+    .carouselContainer
+    {
+      width: 80%;
+    } 
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 910px) {
+    .carouselContainer
+    {
+      width: 90%;
+    } 
+  }
+
+  /* .slide
+  {
+    background-color: blue;
+  } */

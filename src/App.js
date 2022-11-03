@@ -3,6 +3,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Notice from "./Components/homePage/Notice";
 import Live_events from "./Components/homePage/Live_events";
+import Sports from "./Components/homePage/Sports";
 import Gallery from "./Components/sportsPage/Gallery";
 import Events from "./Components/sportsPage/Events";
 import Facilites from "./Components/sportsPage/Facilites";
@@ -28,6 +29,7 @@ function App() {
               <Homeherosection />
               <Notice />
               <Live_events />
+              <Sports/>
             </>
           }
         ></Route>

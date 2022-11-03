@@ -7,7 +7,7 @@ function Homeherosection() {
         <div className="bosm-heading"></div>
         <br />
       </div>
-      <div className="para-1">
+      {/* <div className="para-1">
         <p>
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
           has roots in a piece of classical Latin literature from 45 BC, making
@@ -26,7 +26,7 @@ function Homeherosection() {
           reproduced in their exact original form, accompanied by English
           versions from the 1914 translation by H. Rackham.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }
