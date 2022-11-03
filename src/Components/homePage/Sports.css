@@ -1,0 +1,31 @@
+.s_flex-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #edf7fa;
+    padding: 5% 0 5% 0 ;
+}
+
+.tile-primary-content img
+{
+    border:2px rgb(4, 4, 4) solid;
+    border-radius: 50%;
+    width:150px;
+}
+
+.tile-primary-content img:hover
+{
+   background-color: rgba(0, 255, 255, 0.53);
+   transform: scale(110%);
+}
+
+
+.flex-item a
+{
+    text-decoration: none;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.863);
+    font-family: "Times New Roman", Times, serif;
+
+}
