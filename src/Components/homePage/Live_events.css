@@ -69,6 +69,13 @@
     border-radius: 0.5rem;
   }
 
+  .carouselImgs h3 
+  {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: xx-large;
+  }
+
   .carouselImgs img:hover
   {
     transform: scale(90%);

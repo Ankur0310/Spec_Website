@@ -15,12 +15,12 @@ import Navbar from "./Components/homePage/Navbar";
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route
           path="/"
           element={
             <>
+              <Navbar />
               <Homeherosection />
               <Notice />
               <Live_events />
@@ -32,6 +32,8 @@ function App() {
           path="/sports"
           element={
             <>
+             <Navbar />
+             <br /><br /><br />
               <Gallery />
               <Events />
               <Facilites />
@@ -42,6 +44,7 @@ function App() {
           path="/events"
           element={
             <>
+              <Navbar />  <br /><br /><br />
               <Events_desc />
               <Events_gallery />
             </>

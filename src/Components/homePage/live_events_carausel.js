@@ -30,4 +30,4 @@ window.onload = function () {
   })
 }
 
-setInterval(nextSlide , 3000);
+setInterval(nextSlide , 7000);
