@@ -12,9 +12,18 @@ import Events_gallery from "./Components/eventsPage/Events_gallery";
 import Footer from "./Components/homePage/Footer";
 import Homeherosection from "./Components/homePage/Homeherosection";
 import Navbar from "./Components/homePage/Navbar";
+
 function App() {
   return (
+    <div>
     <Router>
+<<<<<<< HEAD
+=======
+      <div>
+      <Navbar />
+      </div>
+      <div>
+>>>>>>> 6a8c7a49948b0e9ef6d8029820ff57bd3d28dbeb
       <Routes>
         <Route
           path="/"
@@ -32,8 +41,12 @@ function App() {
           path="/sports"
           element={
             <>
+<<<<<<< HEAD
              <Navbar />
              <br /><br /><br />
+=======
+              {/* <Navbar /> */}
+>>>>>>> 6a8c7a49948b0e9ef6d8029820ff57bd3d28dbeb
               <Gallery />
               <Events />
               <Facilites />
@@ -51,9 +64,10 @@ function App() {
           }
         ></Route>
       </Routes>
-
+      </div>
       <Footer />
     </Router>
+    </div>
   );
 }
 
