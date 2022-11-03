@@ -17,13 +17,9 @@ function App() {
   return (
     <div>
     <Router>
-<<<<<<< HEAD
-=======
       <div>
-      <Navbar />
       </div>
       <div>
->>>>>>> 6a8c7a49948b0e9ef6d8029820ff57bd3d28dbeb
       <Routes>
         <Route
           path="/"
@@ -41,12 +37,8 @@ function App() {
           path="/sports"
           element={
             <>
-<<<<<<< HEAD
              <Navbar />
              <br /><br /><br />
-=======
-              {/* <Navbar /> */}
->>>>>>> 6a8c7a49948b0e9ef6d8029820ff57bd3d28dbeb
               <Gallery />
               <Events />
               <Facilites />
