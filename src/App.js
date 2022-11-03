@@ -11,10 +11,15 @@ import Events_gallery from "./Components/eventsPage/Events_gallery";
 import Footer from "./Components/homePage/Footer";
 import Homeherosection from "./Components/homePage/Homeherosection";
 import Navbar from "./Components/homePage/Navbar";
+
 function App() {
   return (
+    <div>
     <Router>
+      <div>
       <Navbar />
+      </div>
+      <div>
       <Routes>
         <Route
           path="/"
@@ -30,6 +35,7 @@ function App() {
           path="/sports"
           element={
             <>
+              {/* <Navbar /> */}
               <Gallery />
               <Events />
               <Facilites />
@@ -46,9 +52,10 @@ function App() {
           }
         ></Route>
       </Routes>
-
+      </div>
       <Footer />
     </Router>
+    </div>
   );
 }
 
