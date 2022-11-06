@@ -1,11 +1,16 @@
+.s_container{
+height: 100vh;
+background-color: #373e74dd;
+
+}
+
 .s_flex-container
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: #edf7fa;
-    padding: 5% 0 5% 0 ;
+    padding: 5% 8% 5% 8% ;
 }
 
 .tile-primary-content img
@@ -17,7 +22,7 @@
 
 .tile-primary-content img:hover
 {
-   background-color: rgba(219, 219, 72, 0.53);
+   background-color: rgba(255, 255, 6, 0.894);
    transform: scale(110%);
 }
 

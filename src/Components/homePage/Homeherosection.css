@@ -1,8 +1,12 @@
 
 /* Styling the body */
+html{
+  scroll-behavior: smooth;
+}
 * {
     margin: 0px;
     padding: 0px;
+
   }
 
 
@@ -28,7 +32,6 @@
     background-size: 100% 100%;
     background-attachment: fixed;
   }
-  
   /* Styling the title of first parallax */
   .parallax-1 h2 {
     margin: auto;

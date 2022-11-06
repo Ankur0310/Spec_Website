@@ -3,8 +3,8 @@ import "./Navbar.css";
 import img from "../../img/ism.png";
 function Navbar() {
   return (
-    <div>
-      <div className="sidebar">
+    <div className="nav_main_c">
+      {/* <div className="sidebar">
         <div className="ham"></div>
         <div className="ham"></div>
         <div className="ham"></div>
@@ -16,7 +16,7 @@ function Navbar() {
           <a href="#">REGISTER</a>
           <a href="#">CONTACTS</a>
         </div>
-      </div>
+      </div> */}
       <div className="nav-bar">
         <div className="links">
           <span>
@@ -29,11 +29,11 @@ function Navbar() {
           </span>
         </div>
         <div className="links">
-          <span>
+          {/* <span>
             <a href="/">
               <img src={img} className="ism_logo_img" />
             </a>
-          </span>
+          </span> */}
         </div>
         <div className="links">
           <span>

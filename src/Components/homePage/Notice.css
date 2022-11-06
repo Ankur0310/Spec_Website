@@ -1,5 +1,7 @@
 .n_container{
-    background-color: #f6e8647c;
+    background-color: #ffd153;
     padding: 3% 0;
+    height: 100vh;
+    box-sizing: border-box;
     
 }
