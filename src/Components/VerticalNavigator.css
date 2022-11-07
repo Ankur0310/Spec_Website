@@ -69,6 +69,10 @@
   .sec:nth-child(odd){
     background: #ddd;
   } */
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
   
   .navbar{
     position: fixed;
