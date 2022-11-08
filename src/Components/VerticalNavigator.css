@@ -71,7 +71,8 @@
   } */
 body {
     /*Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-x: hidden;
+    overflow-y: hidden; /* Hide horizontal scrollbar */
   }
   
   .navbar{
