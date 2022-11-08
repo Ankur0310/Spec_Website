@@ -5,3 +5,39 @@
     box-sizing: border-box;
     
 }
+
+@media screen and (min-width: 680px) and (max-width: 940px) {
+    .n_container
+    {
+        font-size: 0.85rem;
+    }
+    .head
+    {
+        font-size: 4.5rem;
+    }
+
+  }
+
+  @media screen and (min-width: 510px)  and (max-width: 680px) {
+    .n_container
+    {
+        font-size: 0.78rem;
+    }
+    .head
+    {
+        font-size: 4.3rem;
+    }
+
+  }
+
+  @media screen   and (max-width: 510px) {
+    .n_container
+    {
+        font-size: 0.69rem;
+    }
+    .head
+    {
+        font-size: 4.1rem;
+    }
+
+  }

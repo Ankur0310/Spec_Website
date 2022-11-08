@@ -7,13 +7,10 @@ function Notice() {
     <div className="n_container">
       <div className="row">
         <br />
-        <br />
-        <br />
-        <br />
       </div>
       <div className="row">
         <div className="col-8 offset-2">
-          <h1 className="text-center">NOTICES</h1>
+          <h1 className="text-center head">NOTICES</h1>
         </div>
       </div>
       <div className="row">
