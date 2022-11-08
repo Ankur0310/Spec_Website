@@ -8,9 +8,9 @@ const Events = () => {
       <div className="events_main text-center">
         <h1 className="events_heading">Events</h1>
         <CarouselEvents />
-        <br />
+        {/* <br /> */}
       </div>
-      <hr />
+      {/* <hr /> */}
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Gallery.css";
+import img3 from "../../img/s3.png";
 
 const Gallery = () => {
   //     // Instantiate the Bootstrap carousel
@@ -25,94 +26,28 @@ const Gallery = () => {
   return (
     <div className="gallery_main">
       <h1 className="Gallery_heading text-center">Gallery</h1>
+
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
-            <div
-              className="carousel slide multi-item-carousel"
-              id="theCarousel"
-            >
-              <div className="carousel-inner">
-                <div className="item active">
-                  <div className="col-xs-4">
-                    <img
-                      src="https://source.unsplash.com/300x300/?perth,australia"
-                      alt="another-img"
-                      className="img-responsive"
-                    />
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="col-xs-4">
-                    <img
-                      src="https://source.unsplash.com/300x300/?fremantle,australia"
-                      alt="another-img"
-                      className="img-responsive"
-                    />
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="col-xs-4">
-                    <img
-                      src="https://source.unsplash.com/300x300/?west-australia"
-                      alt="another-img"
-                      className="img-responsive"
-                    />
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="col-xs-4">
-                    <img
-                      src="https://source.unsplash.com/300x300/?perth"
-                      alt="another-img"
-                      className="img-responsive"
-                    />
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="col-xs-4">
-                    <img
-                      src="https://source.unsplash.com/300x300/?quokka,perth"
-                      alt="another-img"
-                      className="img-responsive"
-                    />
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="col-xs-4">
-                    <img
-                      src="https://source.unsplash.com/300x300/?margaretriver,australia"
-                      alt="another-img"
-                      className="img-responsive"
-                    />
-                  </div>
-                </div>
+          <div className="col-md-12 s_flex_cont">
 
-                <div className="item">
-                  <div className="col-xs-4">
-                    <img
-                      src="https://source.unsplash.com/300x300/?perth,australia&r=7"
-                      alt="another-img"
-                      className="img-responsive"
-                    />
-                  </div>
-                </div>
-              </div>
-              <a
-                className="left carousel-control"
-                href="#theCarousel"
-                data-slide="prev"
-              >
-                <i className="glyphicon glyphicon-chevron-left"></i>
-              </a>
-              <a
-                className="right carousel-control"
-                href="#theCarousel"
-                data-slide="next"
-              >
-                <i className="glyphicon glyphicon-chevron-right"></i>
-              </a>
+            <div className="flex-item">
+            <img src={img3} alt="" />
             </div>
+
+            <div className="flex-item">
+            <img src={img3} alt="" />
+            </div>
+
+            <div className="flex-item">
+            <img src={img3} alt="" />
+            </div>
+
+            <div className="flex-item">
+            <img src={img3} alt="" />
+            </div>
+
+
           </div>
         </div>
       </div>
