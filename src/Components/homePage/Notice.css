@@ -2,8 +2,10 @@
     background-color: #ffd153;
     padding: 3% 0;
     height: 100vh;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media screen and (min-width: 680px) and (max-width: 940px) {
@@ -39,5 +41,20 @@
     {
         font-size: 4.1rem;
     }
+
+  }
+
+  @media screen  and (max-width: 768px) {
+    .r1
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .r2
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
 
   }

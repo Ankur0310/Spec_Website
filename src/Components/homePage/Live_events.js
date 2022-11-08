@@ -11,7 +11,9 @@ function Live_events() {
   return (
     <div className="live_events">
       <br />
+      <div>
       <h1 className="text-center nine">LIVE EVENTS</h1>
+      </div>
       <div className="container">
         <div className="carouselContainer">
           <div className="carouselImgs slide">
@@ -30,14 +32,7 @@ function Live_events() {
             <br />
             <h3>Live event 3</h3>
           </div>
-          <span className="prev" id="prev">
-            {" "}
-            <img src={pr} alt="" />{" "}
-          </span>
-          <span className="next" id="next">
-            {" "}
-            <img src={nx} alt="" />{" "}
-          </span>
+          
         </div>
       </div>
       <script></script>

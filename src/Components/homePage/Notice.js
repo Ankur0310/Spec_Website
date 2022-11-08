@@ -5,16 +5,14 @@ import "../homePage/Notice_l.js";
 function Notice() {
   return (
     <div className="n_container">
-      <div className="row">
-        <br />
-      </div>
-      <div className="row">
-        <div className="col-8 offset-2">
+      
+      <div className="row r1">
+        <div className="col-md-6 offset-md-3">
           <h1 className="text-center head">NOTICES</h1>
         </div>
       </div>
-      <div className="row">
-        <div className="col-8 offset-2">
+      <div className="row r2">
+        <div className="col-md-6 offset-md-3">
           <p>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,

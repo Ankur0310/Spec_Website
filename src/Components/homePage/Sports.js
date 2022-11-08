@@ -10,7 +10,9 @@ import img6 from "../../img/s6.png";
 function Sports() {
   return (
     <div class="s_container">
+      <div className="row">
       <h1 className="text-center"> SPORTS</h1>
+      </div>
       <div class="row">
         <div class="col-md-12 s_flex-container">
           <div class="flex-item">

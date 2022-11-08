@@ -1,6 +1,9 @@
 .s_container{
 height: 100vh;
 background-color: #373e74dd;
+display: flex;
+flex-direction: column;
+justify-content: center;
 
 }
 
