@@ -8,6 +8,10 @@
     justify-content: center;
 }
 
+.notice_p{
+    font-size: larger;
+}
+
 @media screen and (min-width: 680px) and (max-width: 940px) {
     .n_container
     {

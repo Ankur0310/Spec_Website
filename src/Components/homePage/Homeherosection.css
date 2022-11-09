@@ -141,6 +141,20 @@ html{
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .ph1{
+    bottom: -22%;
+    right: -4%;
+  }
+  .ph2{
+    bottom: -20%;
+    left: -4%;
+  }
+  .bosm-heading{
+    width:65vh;
+    height: 100vh;
+  }
+}
 @keyframes right{
 
  0%{

@@ -20,14 +20,14 @@ function previousSlide() {
   showSlide(currentSlide -= 1);
 }
 
-window.onload = function () {
-  showSlide(currentSlide);
-  document.getElementById('prev').addEventListener('click', function () {
-    previousSlide();
-  })
-  document.getElementById('next').addEventListener('click', function () {
-    nextSlide();
-  })
-}
+// window.onload = function () {
+//   showSlide(currentSlide);
+//   document.getElementById('prev').addEventListener('click', function () {
+//     previousSlide();
+//   })
+//   document.getElementById('next').addEventListener('click', function () {
+//     nextSlide();
+//   })
+// }
 
 setInterval(nextSlide , 7000);
