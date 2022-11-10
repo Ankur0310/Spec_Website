@@ -1,6 +1,6 @@
 import React from "react";
 import "./Gallery.css";
-import img3 from "../../img/s3.png";
+import img3 from "../../img/s3.jpg";
 
 const Gallery = () => {
   //     // Instantiate the Bootstrap carousel
