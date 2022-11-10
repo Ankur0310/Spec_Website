@@ -35,7 +35,6 @@ function Live_events() {
           
         </div>
       </div>
-      <script></script>
     </div>
   );
 }

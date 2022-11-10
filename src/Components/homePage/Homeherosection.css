@@ -130,6 +130,37 @@ html{
   animation: animate 5s linear infinite;
 }
 
+.orient
+{
+  background-image: url("../../img/ori.png");
+  position: absolute;
+    z-index: 70;
+    bottom: 0%;
+    left: 0%;
+    background-position:center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 0vw;
+    height: 0vh;
+    opacity: 0;
+}
+.black
+{
+  background-image: url("../../img/black.jpg");
+  position: absolute;
+  z-index: 50;
+  bottom: 0%;
+  left: 0%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 0vw;
+  height: 0vh;
+  opacity: 0%;
+ 
+}
+  
+
 @keyframes animate{
   0%{
     transform: scale(0) translateY(0) rotate(0);
@@ -141,20 +172,6 @@ html{
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .ph1{
-    bottom: -22%;
-    right: -4%;
-  }
-  .ph2{
-    bottom: -20%;
-    left: -4%;
-  }
-  .bosm-heading{
-    width:65vh;
-    height: 100vh;
-  }
-}
 @keyframes right{
 
  0%{
@@ -169,3 +186,55 @@ html{
    transform: translateX(-5vw);
   }
  }
+
+ 
+
+@media only screen and (min-width: 1060px) and (max-width: 1280px) {
+  .ph1{
+    bottom: -4.5%;
+    right: -4%;
+  }
+  .ph2{
+    bottom: 0%;
+    left: -20%;
+  }
+  .bosm-heading{
+    top: 35%;
+    width:105vh;
+    height: 100vh;
+    left: 60%;
+  }
+}
+
+@media only screen  and (max-width: 415px) {
+  .ph1{
+    bottom: -19.5%;
+    right: -4%;
+    width: 75%;
+  }
+  .ph2{
+    bottom: -19%;
+    left: -4%;
+  }
+  .bosm-heading{
+    top: 40%;
+    width:70vh;
+    left: 45%;
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width:412px) and (max-width: 1062px) {
+  .orient
+  {
+    opacity: 100%;
+    width: 105vw;
+    height: 105vh;
+  }
+  .black
+  {
+    opacity: 100%;
+    width: 105vw;
+    height: 105vh;
+  }
+}

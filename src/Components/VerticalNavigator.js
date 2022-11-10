@@ -29,7 +29,7 @@ function VerticalNavigator() {
   return (
     <>
       <Navbar />
-      <nav class="navbar">
+      <nav className="navbar">
         <ul>
           <li>
             <a href="#home" class="dot active" data-scroll="home">
@@ -75,7 +75,6 @@ function VerticalNavigator() {
       <section class="sec" id="project">
         <Sports />
       </section>
-      <section class="sec" id="contact"></section>
     </>
   );
 }

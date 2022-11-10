@@ -4,19 +4,6 @@ import img from "../../img/ism.png";
 function Navbar() {
   return (
     <div className="nav_main_c">
-      {/* <div className="sidebar">
-        <div className="ham"></div>
-        <div className="ham"></div>
-        <div className="ham"></div>
-      </div>
-      <div className="hamburger">
-        <div className="ham-links">
-          <a href="#">ABOUT US</a>
-          <a href="#">SPONSORS</a>
-          <a href="#">REGISTER</a>
-          <a href="#">CONTACTS</a>
-        </div>
-      </div> */}
       <div className="nav-bar">
         <div className="links">
           <span>
