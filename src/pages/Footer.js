@@ -1,8 +1,8 @@
 import React from "react";
-import "./Footer.css";
-import img1 from "../../img/icons8-facebook-48.png";
-import img2 from "../../img/icons8-instagram-48.png";
-import img3 from "../../img/icons8-youtube-48.png";
+import "../styles/Footer.css";
+import img1 from "../assets/icons8-facebook-48.png";
+import img2 from "../assets/icons8-instagram-48.png";
+import img3 from "../assets/icons8-youtube-48.png";
 function Footer() {
   return (
     <footer>

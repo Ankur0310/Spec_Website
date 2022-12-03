@@ -14,7 +14,7 @@ html{
     top: 50%;
     left: 54%;
     transform: translate(-50%, -50%);
-    background-image: url("../../img/bosm.png"); 
+    background-image: url("../../assets/bosm.png"); 
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ html{
 
   .ph1
   {
-    background-image: url("../../img/Jordon1.png");
+    background-image: url("../../assets/Jordon1.png");
     /* transform: translateX(10%); */
     position: absolute;
     z-index: 10;
@@ -40,7 +40,7 @@ html{
 
   .ph2
   {
-    background-image: url("../../img/dc.png");
+    background-image: url("../../assets/dc.png");
     position: absolute;
     z-index: 10;
     bottom: 0%;
@@ -132,7 +132,7 @@ html{
 
 .orient
 {
-  background-image: url("../../img/ori.png");
+  background-image: url("../../assets/ori.png");
   position: absolute;
     z-index: 70;
     bottom: 0%;
@@ -146,7 +146,7 @@ html{
 }
 .black
 {
-  background-image: url("../../img/black.jpg");
+  background-image: url("../../assets/black.jpg");
   position: absolute;
   z-index: 50;
   bottom: 0%;

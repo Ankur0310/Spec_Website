@@ -1,11 +1,11 @@
 import React from "react";
-import "../Components/VerticalNavigator.css";
+import "../styles/VerticalNavigator.css";
 import $ from "jquery";
-import Notice from "../Components/homePage/Notice";
-import Navbar from "../Components/homePage/Navbar";
-import Live_events from "../Components/homePage/Live_events";
-import Sports from "../Components/homePage/Sports";
-import Homeherosection from "../Components/homePage/Homeherosection";
+import Notice from "../pages/HomePage_JS/Notice";
+import Navbar from "../pages/HomePage_JS/Navbar";
+import Live_events from "../pages/HomePage_JS/Live_events";
+import Home_SportsSection from "../pages/HomePage_JS/Home_SportsSection";
+import Homeherosection from "../pages/HomePage_JS/Homeherosection";
 
 $(document).ready(function () {
   $(window).on("scroll", function () {
@@ -54,12 +54,6 @@ function VerticalNavigator() {
               <span>Sports</span>
             </a>
           </li>
-
-          <li>
-            <a href="#contact" class="dot" data-scroll="contact">
-              <span>Contact Us</span>
-            </a>
-          </li>
         </ul>
       </nav>
 
@@ -73,7 +67,7 @@ function VerticalNavigator() {
         <Live_events />
       </section>
       <section class="sec" id="project">
-        <Sports />
+        <Home_SportsSection />
       </section>
     </>
   );

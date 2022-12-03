@@ -1,5 +1,5 @@
 import React from "react";
-import "./Events_gallery.css";
+import "../../styles/EventsPage_CSS/Events_gallery.css";
 
 function Events_gallery() {
   return (

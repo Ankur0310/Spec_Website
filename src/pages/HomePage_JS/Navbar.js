@@ -1,6 +1,6 @@
 import React from "react";
-import "./Navbar.css";
-import img from "../../img/ism.png";
+import "../../styles/HomePage_CSS/Navbar.css";
+
 function Navbar() {
   return (
     <div className="nav_main_c">
@@ -15,13 +15,7 @@ function Navbar() {
             <a href="/sports">Sports</a>
           </span>
         </div>
-        <div className="links">
-          {/* <span>
-            <a href="/">
-              <img src={img} className="ism_logo_img" />
-            </a>
-          </span> */}
-        </div>
+        <div className="links"></div>
         <div className="links">
           <span>
             <a href="/team">Team</a>

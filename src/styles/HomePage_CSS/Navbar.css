@@ -1,22 +1,19 @@
-
-
-
 @font-face {
-    font-family: "Aero";
-    src: url("../homePage/fonts/Aero.ttf");
-  } 
-  @font-face {
-    font-family: "BigNoodleTitling";
-    src: url("../homePage/fonts/big_noodle_titling.ttf");
-  }
-   @font-face {
-    font-family: "Roboto";
-    src: url("../homePage/fonts/Roboto/Roboto-Light.ttf");
-  }
-  @font-face {
-    font-family: "Segoe";
-    src: url("../homePage/fonts/Segoe UI.woff");
-  } 
+  font-family: "Aero";
+  src: url("../../pages/HomePage_JS/fonts/Aero.ttf");
+} 
+@font-face {
+  font-family: "BigNoodleTitling";
+  src: url("../../pages/HomePage_JS/fonts/big_noodle_titling.ttf");
+}
+ @font-face {
+  font-family: "Roboto";
+  src: url("../../pages/HomePage_JS/fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Segoe";
+  src: url("../../pages/HomePage_JS/fonts/Segoe UI.woff");
+} 
   
 .nav-bar {
     height: 100px;
