@@ -41,20 +41,7 @@ function Homeherosection() {
         <div className="ph2"></div>
         {/* <div className="orient"></div>
           <div className="black"></div> */}
-        <div className="wrapper">
-          <div className="box">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
+        <div className="wrapper"></div>
       </div>
     </div>
   );

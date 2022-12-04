@@ -1,19 +1,9 @@
-.e-parallax-1 {
-    width: 100%;
-    height: 100vh;
-    background:linear-gradient(rgba(58, 58, 60, 0.682), rgba(23, 22, 21, 0.742)), url('../../img/evp.png');
-    background-size: 100% 100%;
-    background-attachment: fixed;
-  }
-.e-parallax-1 h2 {
-    margin: auto;
-    position: relative;
-    left: 45;
-    top: 40%;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-weight: 900;
-    text-shadow: 2em;
-  }
+.events_herosection{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
   

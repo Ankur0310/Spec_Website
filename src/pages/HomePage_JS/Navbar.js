@@ -15,7 +15,13 @@ function Navbar() {
             <a href="/sports">Sports</a>
           </span>
         </div>
-        <div className="links"></div>
+        <div className="links">
+          <span>
+            <a href="/">
+              <u>Home</u>
+            </a>
+          </span>
+        </div>
         <div className="links">
           <span>
             <a href="/team">Team</a>
