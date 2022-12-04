@@ -32,41 +32,41 @@ function VerticalNavigator() {
       <nav className="navbar">
         <ul>
           <li>
-            <a href="#home" class="dot active" data-scroll="home">
+            <a href="#home" className="dot active" data-scroll="home">
               <span>Home</span>
             </a>
           </li>
 
           <li>
-            <a href="#about" class="dot" data-scroll="about">
+            <a href="#about" className="dot" data-scroll="about">
               <span>Notices</span>
             </a>
           </li>
 
           <li>
-            <a href="#service" class="dot" data-scroll="service">
+            <a href="#service" className="dot" data-scroll="service">
               <span>Live Events</span>
             </a>
           </li>
 
           <li>
-            <a href="#project" class="dot" data-scroll="project">
+            <a href="#project" className="dot" data-scroll="project">
               <span>Sports</span>
             </a>
           </li>
         </ul>
       </nav>
 
-      <section class="sec" id="home">
+      <section id="home">
         <Homeherosection />
       </section>
-      <section class="sec" id="about">
+      <section id="about">
         <Notice />
       </section>
-      <section class="sec" id="service">
+      <section id="service">
         <Live_events />
       </section>
-      <section class="sec" id="project">
+      <section id="project">
         <Home_SportsSection />
       </section>
     </>

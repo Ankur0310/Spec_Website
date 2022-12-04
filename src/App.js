@@ -11,6 +11,7 @@ import Navbar from "./pages/HomePage_JS/Navbar";
 import Event_herosection from "./pages/EventsPage_JS/Events_herosection";
 import VerticalNavigator from "./pages/VerticalNavigator";
 import EventsBg from "./pages/EventsPage_JS/EventsBg";
+import SportsBg from "./pages/SportsPage_JS/SportsBg";
 
 function App() {
   return (
@@ -26,17 +27,14 @@ function App() {
                 </>
               }
             ></Route>
-            {/* <Route
+            <Route
               path="/sports"
               element={
                 <>
-                  <Navbar />
-                  <Gallery />
-                  <Events />
-                  <Facilites />
+                  <SportsBg />
                 </>
               }
-            ></Route> */}
+            ></Route>
             <Route
               path="/events"
               element={
