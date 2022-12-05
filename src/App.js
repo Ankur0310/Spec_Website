@@ -12,6 +12,7 @@ import Event_herosection from "./pages/EventsPage_JS/Events_herosection";
 import VerticalNavigator from "./pages/VerticalNavigator";
 import EventsBg from "./pages/EventsPage_JS/EventsBg";
 import SportsBg from "./pages/SportsPage_JS/SportsBg";
+import TeamBg from "./pages/TeamPage_JS/TeamBg";
 
 function App() {
   return (
@@ -45,6 +46,14 @@ function App() {
                   <Events_desc />
                   <Events_gallery /> */}
                   <EventsBg />
+                </>
+              }
+            ></Route>
+            <Route
+              path="/team"
+              element={
+                <>
+                  <TeamBg />
                 </>
               }
             ></Route>
