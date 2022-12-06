@@ -4,17 +4,19 @@ import Navbar from "../HomePage_JS/Navbar";
 import AboutChampionship from "./AboutChampionship";
 import Events_herosection from "./Events_herosection";
 import Events_Navbar from "./Events_Navbar";
+import Footer from "../Footer";
 
 function EventsBg() {
   return (
-    <div>
+    <>
       <div className="wrapper">
         <Navbar />
         <Events_Navbar />
         <Events_herosection />
         <AboutChampionship />
       </div>
-    </div>
+      <Footer />
+    </>
   );
 }
 

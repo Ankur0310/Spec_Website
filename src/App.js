@@ -1,5 +1,10 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  useParams,
+} from "react-router-dom";
 
 // import Gallery from "./Components/sportsPage/Gallery";
 // import Events from "./Components/sportsPage/Events";
@@ -12,7 +17,7 @@ import Event_herosection from "./pages/EventsPage_JS/Events_herosection";
 import VerticalNavigator from "./pages/VerticalNavigator";
 import EventsBg from "./pages/EventsPage_JS/EventsBg";
 import SportsBg from "./pages/SportsPage_JS/SportsBg";
-import TeamBg from "./pages/TeamPage_JS/TeamBg";
+import Events_S from "./pages/EventsPage_JS/Events_Section";
 
 function App() {
   return (
@@ -50,16 +55,18 @@ function App() {
               }
             ></Route>
             <Route
-              path="/team"
+              path="/EventsS/:id"
               element={
                 <>
-                  <TeamBg />
+                  <Events_S
+                  // pro={useParams()}
+                  />
                 </>
               }
             ></Route>
           </Routes>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );
