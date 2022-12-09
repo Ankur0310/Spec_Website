@@ -6,7 +6,6 @@ function SportsBg() {
   return (
     <div>
       <div className="wrapper">
-        <Navbar />
         <Sports_Navbar />
       </div>
     </div>

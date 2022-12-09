@@ -29,7 +29,6 @@ import Footer from "./Footer";
 function VerticalNavigator() {
   return (
     <>
-      <Navbar />
       <nav className="navbar">
         <ul>
           <li>

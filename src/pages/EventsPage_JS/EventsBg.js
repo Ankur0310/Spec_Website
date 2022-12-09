@@ -10,7 +10,6 @@ function EventsBg() {
     <>
       <div className="wrapper">
         <Events_Navbar />
-
         <Events_herosection />
         <p></p>
         <AboutChampionship />
