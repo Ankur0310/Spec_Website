@@ -70,8 +70,6 @@ function VerticalNavigator() {
       <section id="project">
         <Home_SportsSection />
       </section>
-
-      <Footer />
     </>
   );
 }

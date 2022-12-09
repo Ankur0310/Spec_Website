@@ -1,11 +1,4 @@
-html{
-  scroll-behavior: smooth;
-}
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+
 
 
   .bosm-heading {
@@ -71,7 +64,7 @@ html{
     border: 6px solid rgba(255,255,255,0.8);
 }
 
-.box div:nth-child(1){
+/* .box div:nth-child(1){
   top: 70%;
   left: 50%;
   animation: animate 10s linear infinite;
@@ -120,7 +113,7 @@ html{
   top: 20%;
   left: 80%;
   animation: animate 5s linear infinite;
-}
+} */
 
 .orient
 {
