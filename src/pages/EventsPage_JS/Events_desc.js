@@ -4,21 +4,23 @@ function Events_desc() {
   return (
     <>
       <div className="events_desc">
-        <h1>About Championship</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ullam,
-          ex, recusandae vel dolorum, dolores fugit doloremque velit natus
-          reiciendis laudantium accusamus libero commodi quis enim quia esse
-          assumenda animi dolor. Distinctio molestias, aliquid beatae tenetur
-          deserunt eos. Nihil perferendis officia laudantium omnis saepe amet
-          incidunt dolorem eos ipsum voluptas? Dolore, fugit quod delectus a
-          animi recusandae. Quaerat doloremque voluptates quis. Autem,
-          dignissimos magni, iste sapiente iusto neque doloribus pariatur animi
-          minima ad temporibus harum dolorem adipisci? Temporibus consequuntur
-          ea asperiores molestias sequi vero similique eligendi id ullam vel
-          architecto at numquam, esse mollitia quos impedit consectetur eveniet
-          fugit! Consequatur.
-        </p>
+        <div className="events_desc_box">
+          <h1>About Championship</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
+            odio maiores facere eum explicabo totam cupiditate est itaque
+            voluptate reprehenderit? Ut quibusdam nam enim praesentium optio
+            facere unde minus. Perspiciatis itaque eius nobis minus cupiditate
+            beatae expedita culpa fugiat rerum similique quos, dignissimos, ab
+            mollitia distinctio est recusandae vero aliquam. Et mollitia
+            distinctio iure, accusantium corporis ducimus incidunt tempore
+            veniam dicta soluta in culpa consequatur ipsa. Ducimus perferendis
+            repellat, laborum, quod laudantium neque dignissimos illo ipsam ex,
+            aut perspiciatis iusto optio soluta tenetur inventore placeat harum
+            sunt alias! Perferendis deleniti ipsum ex cumque recusandae veniam
+            similique voluptates sit facere officiis!
+          </p>
+        </div>
       </div>
     </>
   );

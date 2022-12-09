@@ -1,5 +1,5 @@
 .eventsContainer1{
-   width: 200vh;
+    width: 200vh;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -8,7 +8,6 @@
     margin-bottom: 10px;
 
 }
-
 .eventsContainer1 li a{
     text-decoration: none;
     font-size: 20px;
@@ -120,6 +119,7 @@
         margin: 30px;
     }
 } */
+
 
 
 

@@ -1,4 +1,8 @@
-
+.home_herosection{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
   .bosm-heading {
     position: absolute;
     z-index: 10;

@@ -1,5 +1,3 @@
- 
-    
   .e_nav-bar {
       height: 50px;
       width: 100vw;
@@ -11,9 +9,10 @@
       font-weight: bold;
       letter-spacing: 3px;
       font-family: BigNoodleTitling;
-      background-color: teal;
+      background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
       z-index: 4;
       letter-spacing: 5px;
+      
     }
     
     .links {

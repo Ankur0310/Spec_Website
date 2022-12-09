@@ -35,13 +35,12 @@ function Homeherosection() {
     // <div className="superScroll" ref={piyush}>
     //   {console.log(piyush)}
     <>
-      <div className="wrapper"></div>
+      <div className="home_herosection"></div>
       <div className="bosm-heading"></div>
       <div className="ph1"></div>
       <div className="ph2"></div>
-      {/* <div className="orient"></div>
-          <div className="black"></div> */}
     </>
+
     // </div>
   );
 }

@@ -1,12 +1,20 @@
-.events_desc {
-    box-sizing: border-box;
-    margin: 10px auto;
-    font-weight:bold;
+.events_desc{
+    padding: 0 0 50px 0;
+
+}
+.events_desc_box{
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #B8B8B8;
 }
 .events_desc h1 {
     text-align: center;
     font-weight:bold;
     font-size: 40px;
-    color: hotpink;
+    color: #B8B8B8;
     text-decoration: underline;
 }
