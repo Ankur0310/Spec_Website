@@ -38,10 +38,7 @@
     }
   
     
-    h1 {
-      font-size: 5rem;
-      font-family: BigNoodleTitling;
-    }
+
   
     .container {
       width: 100%;
@@ -64,10 +61,7 @@
       justify-content: center;
     }
     
-  h1
-  {
-    margin-bottom: 4px;
-  }
+
   
     .carouselImgs {
       width: 100%;
@@ -98,14 +92,7 @@
       top: 35%;
       cursor: pointer;
     }
-    
-    /* .prev {
-      left: 4%;
-    }
-    
-    .next {
-      right: 4%;
-    } */
+ 
     
     @keyframes fade {
       from {
@@ -116,7 +103,7 @@
       }
     }
     
-    @media screen and (min-width: 910px) and (max-width: 1180px) {
+    /* @media screen and (min-width: 910px) and (max-width: 1180px) {
       .carouselContainer
       {
         width: 80%;
@@ -143,7 +130,7 @@
         font-size: 4.7rem;
       }
     }
-  
+   */
     /* .slide
     {
       background-color: blue;

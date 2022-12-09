@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/VerticalNavigator.css";
 import $ from "jquery";
 import Notice from "../pages/HomePage_JS/Notice";
-import Navbar from "../pages/HomePage_JS/Navbar";
+import Navbar from "./Navbar";
 import Live_events from "../pages/HomePage_JS/Live_events";
 import Home_SportsSection from "../pages/HomePage_JS/Home_SportsSection";
 import Homeherosection from "../pages/HomePage_JS/Homeherosection";

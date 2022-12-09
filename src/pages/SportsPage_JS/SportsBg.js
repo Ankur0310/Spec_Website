@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../HomePage_JS/Navbar";
+import Navbar from "../Navbar";
 import Sports_Navbar from "./Sports_Navbar";
 import "../../styles/SportsPage_CSS/SportsBg.css";
 import Sports_herosection from "./Sports_herosection.js";

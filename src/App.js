@@ -6,7 +6,7 @@ import {
   useParams,
 } from "react-router-dom";
 import Footer from "./pages/Footer";
-import Navbar from "./pages/HomePage_JS/Navbar";
+import Navbar from "./pages/Navbar";
 import VerticalNavigator from "./pages/VerticalNavigator";
 import EventsBg from "./pages/EventsPage_JS/EventsBg";
 import SportsBg from "./pages/SportsPage_JS/SportsBg";

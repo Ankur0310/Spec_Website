@@ -44,7 +44,7 @@
     
   
   
-    @media only screen  and (max-width: 415px) {
+    /* @media only screen  and (max-width: 415px) {
       .nav-bar
       {
         display: flex;
@@ -52,4 +52,4 @@
         justify-content: space-evenly;
         margin-top: 10%;
       }
-    }
+    } */
