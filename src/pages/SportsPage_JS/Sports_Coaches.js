@@ -1,50 +1,62 @@
-import React from "react";
-import "../../styles/SportsPage_CSS/Sports_Coaches.css";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { ProjectCard1 } from "./ProjectCard1";
+import projImg1 from "../../assets/project-img1.png";
+import projImg2 from "../../assets/project-img2.png";
+import projImg3 from "../../assets/project-img3.png";
+import colorSharp2 from "../../assets/color-sharp2.png";
+import "animate.css";
 
-function Coaches() {
+function Sports_Gallery() {
+  const projects = [
+    {
+      title: "Some Heading",
+      description: "Details",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Some Heading",
+      description: "Details",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Some Heading",
+      description: "Details",
+      imgUrl: projImg3,
+    },
+  ];
+
   return (
-    <>
-      {/* <h1>Coaches</h1>
-            <div className="coaches_main">
-                <div className="row coaches_row">
-                    <div className="col-md-3 mt-3">
-                        <div className="card">
-                            <img src={"https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"} alt={""} />
-                            <div class="card-body">
-                                <h3 class="card-text">Coach 1
-                                </h3>
-                                <p class="card-text">I am the coach of game
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 mt-3">
-                        <div className="card">
-                            <img src={"https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"} alt={""} />
-                            <div class="card-body">
-                                <h3 class="card-text">Coach 1
-                                </h3>
-                                <p class="card-text">I am the coach of game
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 mt-3">
-                        <div className="card">
-                            <img src={"https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"} alt={""} />
-                            <div class="card-body">
-                                <h3 class="card-text">Coach 1
-                                </h3>
-                                <p class="card-text">I am the coach of game
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-      <h1>Sports_Coaches</h1>
-    </>
+    <section className="project" id="project">
+      <Container>
+        <Row>
+          <Col size={12}>
+            <h2>COACHES</h2>
+            {/* 
+            <Tab.Container id="projects-tabs" defaultActiveKey="first"> */}
+            {/* <Nav
+                variant="pills"
+                className="nav-pills mb-5 justify-content-center align-items-center"
+                id="pills-tab"
+              >
+                <Nav.Item>
+                  <Nav.Link eventKey="first">COACHES</Nav.Link>
+                </Nav.Item>
+              </Nav>
+              <Tab.Content>
+                <Tab.Pane eventKey="first"> */}
+            <Row>
+              {projects.map((project, index) => {
+                return <ProjectCard1 key={index} {...project} />;
+              })}
+            </Row>
+            {/* </Tab.Pane>
+              </Tab.Content>
+            </Tab.Container> */}
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 }
 
-export default Coaches;
+export default Sports_Gallery;

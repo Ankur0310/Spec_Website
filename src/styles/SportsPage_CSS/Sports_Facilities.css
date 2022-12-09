@@ -1,19 +1,28 @@
 
 
-.facilites_main{
-    padding: 1rem 7rem 2rem;
-}
 
-.facilites_main h1{
-    margin: 0rem 0rem 1rem;
-}
+
 
 .facilites_div{
-    background-color: rgb(109, 110, 109);
-    border-radius: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #151515;
+    color: #fff;
+    border-radius: 64px;
+    margin-right: 50px;
+    margin-left: 50px;
     padding: 2rem 1rem 1rem 1rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+   
+}
+
+.facilites_div h1{
+    font-size: 45px;
+    font-family: Roboto;
+    text-align: center;
+    font-weight:700;
+    margin-bottom: 30px;
+}
+
+.facilites_div li{
+    font-size: 25px;
 }

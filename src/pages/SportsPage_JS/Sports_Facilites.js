@@ -1,39 +1,42 @@
 import React from "react";
 import "../../styles/SportsPage_CSS/Sports_Facilities.css";
 
-const Facilites = () => {
+function Sports_Facilites() {
   return (
-    <>
-      {/* <div className="facilites_main text-center">
-        <h1>Facilites</h1>
-        <div className="facilites_div">
-          <div className="facilites_div1">
-            <ul>
-              <li>Facility</li>
-              <li>Facility</li>
-              <li>Facility</li>
-              <li>Facility</li>
-              <li>Facility</li>
-              <li>Facility</li>
-              <li>Facility</li>
-            </ul>
-          </div>
-          <div className="facilites_div2">
-            <ul>
-              <li>Facility</li>
-              <li>Facility</li>
-              <li>Facility</li>
-              <li>Facility</li>
-              <li>Facility</li>
-              <li>Facility</li>
-              <li>Facility</li>
-            </ul>
-          </div>
-        </div>
-      </div> */}
-      <h1>Sports_Facilities</h1>
-    </>
-  );
-};
+    <div className="facilites_div">
+      <h1>FACILITIES</h1>
 
-export default Facilites;
+      <ul>
+        <li>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, fuga?
+        </li>
+        <li>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt,
+          dolor?
+        </li>
+        <li>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt,
+          dolor?
+        </li>
+        <li>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt,
+          dolor?
+        </li>
+        <li>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt,
+          dolor?
+        </li>
+        <li>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt,
+          dolor?
+        </li>
+        <li>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt,
+          dolor?
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+export default Sports_Facilites;
