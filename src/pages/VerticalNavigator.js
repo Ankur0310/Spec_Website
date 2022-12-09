@@ -8,24 +8,24 @@ import Home_SportsSection from "../pages/HomePage_JS/Home_SportsSection";
 import Homeherosection from "../pages/HomePage_JS/Homeherosection";
 import Footer from "./Footer";
 
-$(document).ready(function () {
-  $(window).on("scroll", function () {
-    var link = $(".navbar a.dot");
-    var top = $(window).scrollTop();
+// $(document).ready(function () {
+//   $(window).on("scroll", function () {
+//     var link = $(".navbar a.dot");
+//     var top = $(window).scrollTop();
 
-    $(".sec").each(function () {
-      var id = $(this).attr("id");
-      var height = $(this).height();
-      var offset = $(this).offset().top - 150;
-      if (top >= offset && top < offset + height) {
-        link.removeClass("active");
-        $(".navbar")
-          .find('[data-scroll="' + id + '"]')
-          .addClass("active");
-      }
-    });
-  });
-});
+//     $(".sec").each(function () {
+//       var id = $(this).attr("id");
+//       var height = $(this).height();
+//       var offset = $(this).offset().top - 150;
+//       if (top >= offset && top < offset + height) {
+//         link.removeClass("active");
+//         $(".navbar")
+//           .find('[data-scroll="' + id + '"]')
+//           .addClass("active");
+//       }
+//     });
+//   });
+// });
 function VerticalNavigator() {
   return (
     <>
@@ -61,15 +61,16 @@ function VerticalNavigator() {
       <section id="home">
         <Homeherosection />
       </section>
-      {/* <section id="about">
+      <section id="about">
         <Notice />
-      </section> */}
+      </section>
       <section id="service">
         <Live_events />
       </section>
       <section id="project">
         <Home_SportsSection />
       </section>
+
       <Footer />
     </>
   );

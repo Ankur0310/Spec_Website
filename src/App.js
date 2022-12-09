@@ -21,54 +21,53 @@ import Events_S from "./pages/EventsPage_JS/Events_Section";
 
 function App() {
   return (
-    <div>
+    <>
+      <Navbar />
       <Router>
-        <div>
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <>
-                  <VerticalNavigator />
-                </>
-              }
-            ></Route>
-            <Route
-              path="/sports"
-              element={
-                <>
-                  <SportsBg />
-                </>
-              }
-            ></Route>
-            <Route
-              path="/events"
-              element={
-                <>
-                  {/* <Navbar />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <VerticalNavigator />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/sports"
+            element={
+              <>
+                <SportsBg />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/events"
+            element={
+              <>
+                {/* <Navbar />
 
                   <Event_herosection />
                   <Events_desc />
                   <Events_gallery /> */}
-                  <EventsBg />
-                </>
-              }
-            ></Route>
-            <Route
-              path="/EventsS/:id"
-              element={
-                <>
-                  <Events_S
-                  // pro={useParams()}
-                  />
-                </>
-              }
-            ></Route>
-          </Routes>
-        </div>
-        {/* <Footer /> */}
+                <EventsBg />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/EventsS/:id"
+            element={
+              <>
+                <Events_S
+                // pro={useParams()}
+                />
+              </>
+            }
+          ></Route>
+        </Routes>
       </Router>
-    </div>
+      <Footer/>
+    </>
   );
 }
 

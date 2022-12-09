@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Footer.css";
+import "../styles/layout/Footer.css";
 import img1 from "../assets/icons8-facebook-48.png";
 import img2 from "../assets/icons8-instagram-48.png";
 import img3 from "../assets/icons8-youtube-48.png";

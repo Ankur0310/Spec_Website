@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Aero";
+    src: url("../pages/HomePage_JS/fonts/Aero.ttf");
+  } 
+  @font-face {
+    font-family: "BigNoodleTitling";
+    src: url("../pages/HomePage_JS/fonts/big_noodle_titling.ttf");
+  }
+   @font-face {
+    font-family: "Roboto";
+    src: url("../pages/HomePage_JS/fonts/Roboto/Roboto-Light.ttf");
+  }
+  @font-face {
+    font-family: "Segoe";
+    src: url("../pages/HomePage_JS/fonts/Segoe UI.woff");
+  } 
+  
+.wrapper{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(2,0,.6,1) 0%,rgba(9,9,121,1) 35%,rgba(0,212,255,1) 100%);
+
+    }
