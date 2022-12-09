@@ -5,20 +5,13 @@ import {
   Routes,
   useParams,
 } from "react-router-dom";
-
-// import Gallery from "./Components/sportsPage/Gallery";
-// import Events from "./Components/sportsPage/Events";
-// import Facilites from "./Components/sportsPage/Facilites";
-import Events_desc from "./pages/EventsPage_JS/Events_desc";
-import Events_gallery from "./pages/EventsPage_JS/Events_gallery";
 import Footer from "./pages/Footer";
 import Navbar from "./pages/HomePage_JS/Navbar";
-import Event_herosection from "./pages/EventsPage_JS/Events_herosection";
 import VerticalNavigator from "./pages/VerticalNavigator";
 import EventsBg from "./pages/EventsPage_JS/EventsBg";
 import SportsBg from "./pages/SportsPage_JS/SportsBg";
 import Events_S from "./pages/EventsPage_JS/Events_Section";
-
+import TeamBg from "./pages/TeamPage_JS/TeamBg";
 function App() {
   return (
     <>
@@ -45,12 +38,23 @@ function App() {
             path="/events"
             element={
               <>
-                {/* <Navbar />
-
-                  <Event_herosection />
-                  <Events_desc />
-                  <Events_gallery /> */}
                 <EventsBg />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/sports"
+            element={
+              <>
+                <SportsBg />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/team"
+            element={
+              <>
+                <TeamBg />
               </>
             }
           ></Route>
@@ -58,15 +62,13 @@ function App() {
             path="/EventsS/:id"
             element={
               <>
-                <Events_S
-                // pro={useParams()}
-                />
+                <Events_S />
               </>
             }
           ></Route>
         </Routes>
       </Router>
-      <Footer/>
+      <Footer />
     </>
   );
 }

@@ -4,7 +4,7 @@ import "../../styles/EventsPage_CSS/Events_gallery.css";
 function Events_gallery() {
   return (
     <div>
-      <div className="eventsContainer1">
+      {/* <div className="eventsContainer1">
         <li>
           <a href="#">2022</a>
         </li>
@@ -17,7 +17,7 @@ function Events_gallery() {
         <li>
           <a href="#">2019</a>
         </li>
-      </div>
+      </div> */}
       {/* 
       <div className="eventsContainer2">
 
@@ -98,7 +98,7 @@ function Events_gallery() {
 <h3><a href="#" >Next page</a></h3> 
 </div>*/}
 
-      <div class="eventsContainer2">
+      {/* <div class="eventsContainer2">
         <h2 className="text-center">Gallery #2021</h2>
         <div className="border"></div>
         <div className="gallery">
@@ -167,7 +167,8 @@ function Events_gallery() {
           <h2 className="text-center">NEXT PAGE</h2>
         </a>
       </h3>
-      <hr />
+      <hr /> */}
+      <h1>Events_gallery</h1>
     </div>
   );
 }

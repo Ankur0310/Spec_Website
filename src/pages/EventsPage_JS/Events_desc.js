@@ -2,8 +2,8 @@ import React from "react";
 import "../../styles/EventsPage_CSS/Events_desc.css";
 function Events_desc() {
   return (
-    <div>
-      <div className="events_desc">
+    <>
+      {/* <div className="events_desc">
         <h1>About Championship</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ullam,
@@ -20,8 +20,9 @@ function Events_desc() {
           fugit! Consequatur.
         </p>
       </div>
-      <hr />
-    </div>
+      <hr /> */}
+      <h1>Events_desc</h1>
+    </>
   );
 }
 

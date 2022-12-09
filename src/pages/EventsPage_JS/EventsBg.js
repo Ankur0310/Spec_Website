@@ -1,9 +1,10 @@
 import React from "react";
 import "../../styles/EventsPage_CSS/EventsBg.css";
-import Navbar from "../HomePage_JS/Navbar";
-import AboutChampionship from "./AboutChampionship";
+
 import Events_herosection from "./Events_herosection";
 import Events_Navbar from "./Events_Navbar";
+import Events_desc from "./Events_desc";
+import Events_gallery from "./Events_gallery";
 
 function EventsBg() {
   return (
@@ -11,8 +12,8 @@ function EventsBg() {
       <div className="wrapper">
         <Events_Navbar />
         <Events_herosection />
-        <p></p>
-        <AboutChampionship />
+        <Events_desc />
+        <Events_gallery />
       </div>
     </>
   );

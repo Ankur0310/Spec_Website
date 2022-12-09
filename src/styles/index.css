@@ -1,5 +1,26 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Aero";
+  src: url("../pages/HomePage_JS/fonts/Aero.ttf");
+} 
+@font-face {
+  font-family: "BigNoodleTitling";
+  src: url("../pages/HomePage_JS/fonts/big_noodle_titling.ttf");
+}
+ @font-face {
+  font-family: "Roboto";
+  src: url("../pages/HomePage_JS/fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Segoe";
+  src: url("../pages/HomePage_JS/fonts/Segoe UI.woff");
+}
+
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 * {
     margin: 0px;
@@ -8,36 +29,14 @@ html{
   }
 
   body {
-    
     overflow-x: hidden;
-    /* overflow-y: hidden;  */
+    font-family: 'Source Sans Pro', sans-serif;
   }
-
-
-
-
-@font-face {
-    font-family: "Aero";
-    src: url("../pages/HomePage_JS/fonts/Aero.ttf");
-  } 
-  @font-face {
-    font-family: "BigNoodleTitling";
-    src: url("../pages/HomePage_JS/fonts/big_noodle_titling.ttf");
-  }
-   @font-face {
-    font-family: "Roboto";
-    src: url("../pages/HomePage_JS/fonts/Roboto/Roboto-Light.ttf");
-  }
-  @font-face {
-    font-family: "Segoe";
-    src: url("../pages/HomePage_JS/fonts/Segoe UI.woff");
-  } 
+ 
   
 .wrapper{
-  
     width: 100vw;
     height: 100vh;
     background: linear-gradient(90deg, rgba(2,0,.6,1) 0%,rgba(9,9,121,1) 35%,rgba(0,212,255,1) 100%);
-
-    }
+}
 

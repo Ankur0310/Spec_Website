@@ -1,10 +1,10 @@
 import React from "react";
-import "./Facilites.css";
+import "../../styles/SportsPage_CSS/Sports_Facilities.css";
 
 const Facilites = () => {
   return (
-    <div>
-      <div className="facilites_main text-center">
+    <>
+      {/* <div className="facilites_main text-center">
         <h1>Facilites</h1>
         <div className="facilites_div">
           <div className="facilites_div1">
@@ -30,9 +30,9 @@ const Facilites = () => {
             </ul>
           </div>
         </div>
-      </div>
-      <hr />
-    </div>
+      </div> */}
+      <h1>Sports_Facilities</h1>
+    </>
   );
 };
 

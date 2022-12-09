@@ -1,10 +1,10 @@
-import React from 'react'
-import './Coaches.css'
+import React from "react";
+import "../../styles/SportsPage_CSS/Sports_Coaches.css";
 
 function Coaches() {
-    return (
-        <div>
-            <h1>Coaches</h1>
+  return (
+    <>
+      {/* <h1>Coaches</h1>
             <div className="coaches_main">
                 <div className="row coaches_row">
                     <div className="col-md-3 mt-3">
@@ -41,10 +41,10 @@ function Coaches() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-    )
+            </div> */}
+      <h1>Sports_Coaches</h1>
+    </>
+  );
 }
 
 export default Coaches;

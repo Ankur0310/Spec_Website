@@ -1,10 +1,10 @@
 import React from "react";
-import "../../styles/HomePage_CSS/Navbar.css";
+import "../../styles/layout/Navbar.css";
 
 function Navbar() {
   return (
-    <div className="nav_main_c">
-      <div className="nav-bar">
+    <>
+      <div className="main-Navbar">
         <div className="links">
           <span>
             <a href="/events">Events</a>
@@ -33,7 +33,7 @@ function Navbar() {
           </span>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

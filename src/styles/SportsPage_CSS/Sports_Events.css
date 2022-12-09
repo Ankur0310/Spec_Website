@@ -15,22 +15,7 @@
 .events_heading{
     padding: 1rem;
 } */
-@font-face {
-    font-family: "Aero";
-    src: url("../homePage/fonts/Aero.ttf");
-  } 
-  @font-face {
-    font-family: "BigNoodleTitling";
-    src: url("../homePage/fonts/big_noodle_titling.ttf");
-  }
-   @font-face {
-    font-family: "Roboto";
-    src: url("../homePage/fonts/Roboto/Roboto-Light.ttf");
-  }
-  @font-face {
-    font-family: "Segoe";
-    src: url("../homePage/fonts/Segoe UI.woff");
-  } 
+
   
   
   .carouselImgs h3 
@@ -41,12 +26,7 @@
     margin-top: 2rem;
   }
   
-  * {
-      margin: 0;
-      padding: 0;
-      outline: 0;
-      box-sizing: border-box;
-    }
+
     
     .live_events
     {
@@ -56,9 +36,7 @@
       flex-direction: column;
       justify-content: center;
     }
-    body {
-      font-family: 'Source Sans Pro', sans-serif;
-    }
+  
     
     h1 {
       font-size: 5rem;

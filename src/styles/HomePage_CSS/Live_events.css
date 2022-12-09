@@ -9,12 +9,7 @@
   margin-top: 2rem;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-  }
+
   
   .live_events
   {
@@ -24,9 +19,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  body {
-    font-family: 'Source Sans Pro', sans-serif;
-  }
+
   
   h1 {
     font-size: 5rem;
@@ -89,13 +82,7 @@ h1
     cursor: pointer;
   }
   
-  /* .prev {
-    left: 4%;
-  }
   
-  .next {
-    right: 4%;
-  } */
   
   @keyframes fade {
     from {
@@ -134,9 +121,6 @@ h1
     }
   }
 
-  /* .slide
-  {
-    background-color: blue;
-  } */
+ 
 
  
