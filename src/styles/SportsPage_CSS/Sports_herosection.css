@@ -1,0 +1,23 @@
+
+.sports_herosection{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 50px; 
+  }
+  .sports_herosection h1{
+    font-size: 80px;
+    position: absolute;
+    color: #fff;
+  }
+
+
+.sports_herosection_img{
+    height: 100%;
+    width: 100%;
+  }

@@ -261,34 +261,34 @@ import TrackVisibility from "react-on-screen";
 function Events_gallery() {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Some Heading",
+      description: "Details",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Some Heading",
+      description: "Details",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Some Heading",
+      description: "Details",
+      imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Some Heading",
+      description: "Details",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Some Heading",
+      description: "Details",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Some Heading",
+      description: "Details",
+      imgUrl: projImg1,
     },
   ];
 
@@ -319,7 +319,7 @@ function Events_gallery() {
                         <Nav.Link eventKey="second">2021</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">2021</Nav.Link>
+                        <Nav.Link eventKey="third">2022</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content

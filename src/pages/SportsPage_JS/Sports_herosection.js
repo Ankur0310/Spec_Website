@@ -1,9 +1,13 @@
 import React from "react";
 import "../../styles/SportsPage_CSS/Sports_herosection.css";
+import BasketballImg from "../../assets/Basketball.jpg";
 function Sports_herosection() {
   return (
     <>
-      <h1>BasketBall</h1>
+      <div className="sports_herosection">
+        <img src={BasketballImg} className="sports_herosection_img" alt="" />
+        <h1>Basketball</h1>
+      </div>
     </>
   );
 }

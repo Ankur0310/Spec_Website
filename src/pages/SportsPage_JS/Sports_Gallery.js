@@ -1,135 +1,314 @@
 // import React from "react";
-// import "./Gallery.css";
-// import img3 from "../../img/s3.jpg";
+// import "../../styles/EventsPage_CSS/Events_gallery.css";
 
-// const Gallery = () => {
-//   //     // Instantiate the Bootstrap carousel
-//   // $('.multi-item-carousel').carousel({
-//   //     interval: false
-//   //   });
-
-//   //   // for every slide in carousel, copy the next slide's item in the slide.
-//   //   // Do the same for the next, next item.
-//   //   $('.multi-item-carousel .item').each(function(){
-//   //     var next = $(this).next();
-//   //     if (!next.length) {
-//   //       next = $(this).siblings(':first');
-//   //     }
-//   //     next.children(':first-child').clone().appendTo($(this));
-
-//   //     if (next.next().length>0) {
-//   //       next.next().children(':first-child').clone().appendTo($(this));
-//   //     } else {
-//   //         $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-//   //     }
-//   //   });
+// function Events_gallery() {
 //   return (
-//     <div className="gallery_main">
-//       <h1 className="Gallery_heading text-center">Gallery</h1>
+//     <div>
+//       <div className="eventsContainer1">
+//         <li>
+//           <a href="#">2022</a>
+//         </li>
+//         <li>
+//           <a href="#">2021</a>
+//         </li>
+//         <li>
+//           <a href="#">2020</a>
+//         </li>
+//         <li>
+//           <a href="#">2019</a>
+//         </li>
+//       </div>
 
-//       <div className="container">
+//       <div className="eventsContainer2">
 //         <div className="row">
-//           <div className="col-md-12 s_flex_cont">
-
-//             <div className="flex-item">
-//             <img src={img3} alt="" />
+//           <div className="col-md-3 mt-3">
+//             <div className="card">
+//               <img
+//                 src={
+//                   "https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+//                 }
+//                 alt={""}
+//               />
+//               <div class="card-body">
+//                 <p class="card-text">
+//                   Some quick example text to build on the card title and make up
+//                   the bulk of the card's content.
+//                 </p>
+//               </div>
 //             </div>
-
-//             <div className="flex-item">
-//             <img src={img3} alt="" />
+//           </div>
+//           <div className="col-md-3 mt-3">
+//             <div className="card">
+//               <img
+//                 src={
+//                   "https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+//                 }
+//                 alt={""}
+//               />
+//               <div class="card-body">
+//                 <p class="card-text">
+//                   Some quick example text to build on the card title and make up
+//                   the bulk of the card's content.
+//                 </p>
+//               </div>
 //             </div>
-
-//             <div className="flex-item">
-//             <img src={img3} alt="" />
+//           </div>
+//           <div className="col-md-3 mt-3">
+//             <div className="card">
+//               <img
+//                 src={
+//                   "https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+//                 }
+//                 alt={""}
+//               />
+//               <div class="card-body">
+//                 <p class="card-text">
+//                   Some quick example text to build on the card title and make up
+//                   the bulk of the card's content.
+//                 </p>
+//               </div>
 //             </div>
-
-//             <div className="flex-item">
-//             <img src={img3} alt="" />
+//           </div>
+//           <div className="col-md-3 mt-3">
+//             <div className="card">
+//               <img
+//                 src={
+//                   "https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+//                 }
+//                 alt={""}
+//               />
+//               <div class="card-body">
+//                 <p class="card-text">
+//                   Some quick example text to build on the card title and make up
+//                   the bulk of the card's content.
+//                 </p>
+//               </div>
 //             </div>
+//           </div>
+//           <div className="col-md-3 mt-4 mb-2">
+//             <div className="card">
+//               <img
+//                 src={
+//                   "https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+//                 }
+//                 alt={""}
+//               />
+//               <div class="card-body">
+//                 <p class="card-text">
+//                   Some quick example text to build on the card title and make up
+//                   the bulk of the card's content.
+//                 </p>
+//               </div>
+//             </div>
+//           </div>
+//           <div className="col-md-3 mt-4 mb-2">
+//             <div className="card">
+//               <img
+//                 src={
+//                   "https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+//                 }
+//                 alt={""}
+//               />
+//               <div class="card-body">
+//                 <p class="card-text">
+//                   Some quick example text to build on the card title and make up
+//                   the bulk of the card's content.
+//                 </p>
+//               </div>
+//             </div>
+//           </div>
+//           <div className="col-md-3 mt-4 mb-2">
+//             <div className="card">
+//               <img
+//                 src={
+//                   "https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+//                 }
+//                 alt={""}
+//               />
+//               <div class="card-body">
+//                 <p class="card-text">
+//                   Some quick example text to build on the card title and make up
+//                   the bulk of the card's content.
+//                 </p>
+//               </div>
+//             </div>
+//           </div>
+//           <div className="col-md-3 mt-4 mb-2">
+//             <div className="card">
+//               <img
+//                 src={
+//                   "https://images.unsplash.com/photo-1665686310974-2ed1eb7f57ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+//                 }
+//                 alt={""}
+//               />
+//               <div class="card-body">
+//                 <p class="card-text">
+//                   Some quick example text to build on the card title and make up
+//                   the bulk of the card's content.
+//                 </p>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//         <h3>
+//           <a href="#">Next page</a>
+//         </h3>
+//       </div>
 
+//       <div class="eventsContainer2">
+//         <h2 className="text-center">Gallery #2021</h2>
+//         <div className="border"></div>
+//         <div className="gallery">
+//           <div className="image">
+//             <img
+//               src="https://source.unsplash.com/300x300/?perth,australia"
+//               alt=""
+//             />
+//             <div className="caption">
+//               <h1 className="text-center">Some caption</h1>
+//             </div>
+//           </div>
+
+//           <div className="image">
+//             <img
+//               src="https://source.unsplash.com/300x300/?perth,australia"
+//               alt=""
+//             />
+//             <div className="caption">
+//               <h1 className="text-center">Some caption</h1>
+//             </div>
+//           </div>
+
+//           <div className="image">
+//             <img
+//               src="https://source.unsplash.com/300x300/?perth,australia"
+//               alt=""
+//             />
+//             <div className="caption">
+//               <h1 className="text-center">Some caption</h1>
+//             </div>
+//           </div>
+
+//           <div className="image">
+//             <img
+//               src="https://source.unsplash.com/300x300/?perth,australia"
+//               alt=""
+//             />
+//             <div className="caption">
+//               <h1 className="text-center">Some caption</h1>
+//             </div>
+//           </div>
+
+//           <div className="image">
+//             <img
+//               src="https://source.unsplash.com/300x300/?perth,australia"
+//               alt=""
+//             />
+//             <div className="caption">
+//               <h1 className="text-center">Some caption</h1>
+//             </div>
+//           </div>
+//           <div className="image">
+//             <img
+//               src="https://source.unsplash.com/300x300/?perth,australia"
+//               alt=""
+//             />
+//             <div className="caption">
+//               <h1 className="text-center">Some caption</h1>
+//             </div>
 //           </div>
 //         </div>
 //       </div>
+//       <h3>
+//         <a href="#">
+//           <h2 className="text-center">NEXT PAGE</h2>
+//         </a>
+//       </h3>
 //       <hr />
+//       <p>
+//         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+//         accusantium, quaerat, laborum fugit totam nobis ab sit sunt perferendis
+//         officia necessitatibus numquam. Minima odio sequi, ratione laudantium
+//         esse laboriosam placeat blanditiis consectetur ad nobis voluptate neque
+//         explicabo unde omnis rem quaerat! Sed adipisci, animi at tempora facere
+//         ratione iure. Impedit consectetur suscipit vel veniam cumque beatae.
+//         Voluptate, nobis ullam tempora corporis dolores perspiciatis? Itaque
+//         aperiam, mollitia repellendus eius laudantium ipsum repudiandae, ducimus
+//         suscipit neque dolore hic. Nostrum rem, commodi temporibus, in culpa quo
+//         nemo debitis perspiciatis quisquam hic minus distinctio! Aut quam, sint
+//         eum deleniti repudiandae nostrum. Laborum delectus quidem nam quia qui,
+//         dolor corporis ut quam possimus sequi quibusdam unde, iure libero
+//         cupiditate nobis illum voluptas ad quaerat. Nihil ratione nulla fugiat
+//         iste, reprehenderit cumque ipsum at laudantium rem debitis culpa
+//         blanditiis adipisci? Itaque nam vel magni excepturi, sit vitae quidem
+//         suscipit nihil exercitationem quae at repellendus. Officia, ratione?
+//       </p>
 //     </div>
 //   );
-// };
+// }
 
-// export default Gallery;
+// export default Events_gallery;
 
-import React from "react";
-import "../../styles/SportsPage_CSS/Sports_Gallery.css";
-// import img1 from "../../img/s1.jpg";
-// import img2 from "../../img/s2.jpg";
-// import img3 from "../../img/s3.jpg";
-// import img4 from "../../img/s4.jpg";
-// import img5 from "../../img/s5.jpg";
-// import img6 from "../../img/s6.jpg";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { ProjectCard1 } from "./ProjectCard1";
+import projImg1 from "../../assets/project-img1.png";
+import projImg2 from "../../assets/project-img2.png";
+import projImg3 from "../../assets/project-img3.png";
+import colorSharp2 from "../../assets/color-sharp2.png";
+import "animate.css";
 
-function Gallery() {
+function Sports_Gallery() {
+  const projects = [
+    {
+      title: "Some Heading",
+      description: "Details",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Some Heading",
+      description: "Details",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Some Heading",
+      description: "Details",
+      imgUrl: projImg3,
+    },
+  ];
+
   return (
-    //     <div className="main_div_sports">
-    //       <h1 className="text-center">GALLERY</h1>
-    //       <div class="cards-list">
+    <section className="project" id="project">
+      <Container>
+        <Row>
+          <Col size={12}>
+            <h2>GALLERY</h2>
 
-    //   <div class="card 1">
-    //     <div class="card_image">  <img src={img1} alt="" /> </div>
-    //     <div class="card_title title-white">
-    //       <p>Basketball</p>
-    //     </div>
-    //   </div>
-
-    //     <div class="card 2">
-    //     <div class="card_image">
-    //     <img src={img2} alt="" />
-    //       </div>
-    //     <div class="card_title title-white">
-    //       <p>Volley Ball</p>
-    //     </div>
-    //   </div>
-
-    //   <div class="card 3">
-    //     <div class="card_image">
-    //     <img src={img3} alt="" />
-    //     </div>
-    //     <div class="card_title title-white">
-    //       <p>Cricket</p>
-    //     </div>
-    //   </div>
-
-    //   <div class="card 4">
-    //   <div class="card_image">
-    //   <img src={img4} alt="" />
-    //     </div>
-    //   <div class="card_title title-white">
-    //     <p>Hockey</p>
-    //   </div>
-    //   </div>
-
-    //   <div class="card 5">
-    //   <div class="card_image">
-    //   <img src={img5} alt="" />
-    //     </div>
-    //   <div class="card_title title-white">
-    //     <p>Badminton</p>
-    //   </div>
-    //   </div>
-
-    //   <div class="card 6">
-    //   <div class="card_image">
-    //   <img src={img6} alt="" />
-    //     </div>
-    //   <div class="card_title title-white">
-    //     <p>Tennis</p>
-    //   </div>
-    //   </div>
-
-    // </div>
-    //     </div>
-    <>
-      <h1>Sports_Gallery</h1>
-    </>
+            <Tab.Container id="projects-tabs" defaultActiveKey="first">
+              <Nav
+                variant="pills"
+                className="nav-pills mb-5 justify-content-center align-items-center"
+                id="pills-tab"
+              >
+                <Nav.Item>
+                  <Nav.Link eventKey="first">IMAGES</Nav.Link>
+                </Nav.Item>
+              </Nav>
+              <Tab.Content>
+                <Tab.Pane eventKey="first">
+                  <Row>
+                    {projects.map((project, index) => {
+                      return <ProjectCard1 key={index} {...project} />;
+                    })}
+                  </Row>
+                </Tab.Pane>
+              </Tab.Content>
+            </Tab.Container>
+          </Col>
+        </Row>
+      </Container>
+      <img className="background-image-right" src={colorSharp2}></img>
+    </section>
   );
 }
 
-export default Gallery;
+export default Sports_Gallery;

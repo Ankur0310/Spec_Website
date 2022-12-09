@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import "../../styles/EventsPage_CSS/Events_Navbar.css";
 
 function Events_Navbar() {
@@ -10,21 +10,27 @@ function Events_Navbar() {
           <span>
             {/* <a href="/events/Aarambh"
             prop="GC" >General Championship</a> */}
-            <Link to="/EventsS/General-Championship" className="btn btn-primary" prop="GC">GeneralChampionship</Link>
+            <Link to="/EventsS/General-Championship" prop="GC">
+              General Championship
+            </Link>
           </span>
         </div>
         <div className="links">
           <span>
             {/* <a href="/events/Aarambh"
             prop="AH">Aarambh</a> */}
-            <Link to="/EventsS/Aarambh" className="btn btn-primary" prop="GC">Aarambh</Link>
+            <Link to="/EventsS/Aarambh" prop="GC">
+              Aarambh
+            </Link>
           </span>
         </div>
         <div className="links">
           <span>
             {/* <a href="/events/Aarambh"
             prop="OE">Other Events</a> */}
-            <Link to="/EventsS/Other-Events" className="btn btn-primary" prop="GC">Other Events</Link>
+            <Link to="/EventsS/Other-Events" prop="GC">
+              Other Events
+            </Link>
           </span>
         </div>
       </div>

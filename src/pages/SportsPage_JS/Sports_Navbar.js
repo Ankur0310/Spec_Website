@@ -21,7 +21,7 @@ function Sports_Navbar() {
         </div>
         <div className="links">
           <span>
-            <a href="/sports/hall_of_fame">Hall of FAME</a>
+            <a href="/sports/hall_of_fame">Hall of Fame</a>
           </span>
         </div>
       </div>

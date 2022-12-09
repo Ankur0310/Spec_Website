@@ -16,7 +16,7 @@ function SportsBg() {
         <Sports_Navbar />
         <Sports_herosection />
         <Sports_gallery />
-        <Sports_Events />
+        {/* <Sports_Events /> */}
         <Sports_Facilities />
         <Sports_Coaches />
         <Sports_Rules />
