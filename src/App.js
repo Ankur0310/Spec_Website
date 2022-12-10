@@ -12,6 +12,7 @@ import EventsBg from "./pages/EventsPage_JS/EventsBg";
 import SportsBg from "./pages/SportsPage_JS/SportsBg";
 import Events_S from "./pages/EventsPage_JS/Events_Section";
 import TeamBg from "./pages/TeamPage_JS/TeamBg";
+import AboutUsBg from "./pages/AboutUs_JS/AboutUsBg";
 function App() {
   return (
     <>
@@ -26,14 +27,7 @@ function App() {
               </>
             }
           ></Route>
-          <Route
-            path="/sports"
-            element={
-              <>
-                <SportsBg />
-              </>
-            }
-          ></Route>
+
           <Route
             path="/events"
             element={
@@ -63,6 +57,14 @@ function App() {
             element={
               <>
                 <Events_S />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/About"
+            element={
+              <>
+                <AboutUsBg />
               </>
             }
           ></Route>

@@ -29,7 +29,7 @@ function Navbar() {
         </div>
         <div className="links">
           <span>
-            <a href="/about">About Us</a>
+            <a href="/About">About Us</a>
           </span>
         </div>
       </div>

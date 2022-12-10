@@ -1,0 +1,39 @@
+.AboutUs_SPEC_box{
+    margin-top: 50px;
+
+    background: #151515;
+    color: #fff;
+    border-radius: 64px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 3rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+  
+   
+}
+.AboutUs_SPEC_box h1{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 45px;
+    
+}
+.AboutUs_SPEC_div1{
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    justify-content: center;
+    gap: 10px;
+}
+/* .AboutUs_SPEC_div1_img{
+    height: 100%;
+    width: 100%;
+} */
+.AboutUs_SPEC_div2{
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+
+}

@@ -1,0 +1,22 @@
+.aboutUs_herosection{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    margin-bottom: 50px; 
+  }
+/*   
+  .aboutUs_herosection h1{
+    font-size: 80px;
+    bottom: 150px;
+    position: absolute;
+    color: #fff;
+  } */
+    
+  .aboutUs_herosection_img{
+    height: 100%;
+    width: 100%;
+  }
