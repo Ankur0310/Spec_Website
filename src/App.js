@@ -61,7 +61,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/About"
+            path="/about"
             element={
               <>
                 <AboutUsBg />

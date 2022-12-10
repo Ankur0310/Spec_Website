@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/EventsPage_CSS/Events_herosection.css";
-import AarambhImg from "../../assets/lg.jpg";
+import AarambhImg from "../../assets/Aarambh.jpg";
 function Events_herosection() {
   return (
     <div className="events_herosection">
