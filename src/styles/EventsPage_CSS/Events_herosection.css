@@ -8,17 +8,21 @@
   margin-top: 10px;
   position: relative;
   margin-bottom: 50px; 
+  z-index: 2;
+  background-color: black;
 }
 
 .events_herosection h1{
-  font-size: 80px;
-  top: 250px;
+  font-size: 800%;
+  top: 38%;
   position: absolute;
   color: #fff;
+  background-color: rgba(9, 9, 9, 0.086);
 }
   
 .events_herosection_img{
   height: 100%;
   width: 100%;
+  /* z-index: ; */
 }
 
