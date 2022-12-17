@@ -6,49 +6,45 @@ function Navbar() {
   return (
     <>
       <div className="main-Navbar">
-      <div className="container navcont">
+        <div className="container navcont">
           <div className="col-1.5">
-          <img src={navicon} alt="" srcset="" />
+            <img src={navicon} alt="" srcset="" />
           </div>
           <div className="col-7 newcol">
-          <div className="links">
-          <span>
-            <a href="/">
-              Home
-            </a>
-          </span>
-        </div>
-        <div className="links">
-          <span>
-            <a href="/events">Events</a>
-          </span>
-        </div>
-        <div className="links">
-          <span>
-            <a href="/sports">Sports</a>
-          </span>
-        </div>
-        <div className="links">
-          <span>
-            <a href="/team">Team</a>
-          </span>
-        </div>
-        <div className="links">
-          <span>
-            <a href="/about">About Us</a>
-          </span>
-        </div>
+            <div className="links">
+              <span>
+                <a href="/">HOME</a>
+              </span>
+            </div>
+            <div className="links">
+              <span>
+                <a href="/events">EVENTS</a>
+              </span>
+            </div>
+            <div className="links">
+              <span>
+                <a href="/sports">SPORTS</a>
+              </span>
+            </div>
+            <div className="links">
+              <span>
+                <a href="/team">TEAM</a>
+              </span>
+            </div>
+            <div className="links">
+              <span>
+                <a href="/about">ABOUT US</a>
+              </span>
+            </div>
           </div>
           <div className="col-2"></div>
-        
-      </div>
+        </div>
       </div>
     </>
   );
 }
 
 export default Navbar;
-
 
 // import { useState, useEffect } from "react";
 // import { Navbar, Nav, Container } from "react-bootstrap";

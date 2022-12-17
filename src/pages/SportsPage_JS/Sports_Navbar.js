@@ -6,22 +6,22 @@ function Sports_Navbar() {
       <div className="s_nav-bar">
         <div className="links_s">
           <span>
-            <a href="/sports/facilities">Facilities</a>
+            <a href="/sports/facilities">FACILITIES</a>
           </span>
         </div>
         <div className="links_s">
           <span>
-            <a href="/sports/coaches">Coaches</a>
+            <a href="/sports/coaches">COACHES</a>
           </span>
         </div>
         <div className="links_s">
           <span>
-            <a href="/sports/rules">Rules</a>
+            <a href="/sports/rules">RULES</a>
           </span>
         </div>
         <div className="links_s">
           <span>
-            <a href="/sports/hall_of_fame">Hall of Fame</a>
+            <a href="/sports/hall_of_fame">HALL OF FAME</a>
           </span>
         </div>
       </div>

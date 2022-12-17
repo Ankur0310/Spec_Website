@@ -11,7 +11,7 @@ function Events_Navbar() {
             {/* <a href="/events/Aarambh"
             prop="GC" >General Championship</a> */}
             <Link to="/EventsS/General-Championship" prop="GC">
-              General Championship
+              GENERAL CHAMPIONSHIP
             </Link>
           </span>
         </div>
@@ -20,7 +20,7 @@ function Events_Navbar() {
             {/* <a href="/events/Aarambh"
             prop="AH">Aarambh</a> */}
             <Link to="/EventsS/Aarambh" prop="GC">
-              Aarambh
+              AARAMBH
             </Link>
           </span>
         </div>
@@ -29,7 +29,7 @@ function Events_Navbar() {
             {/* <a href="/events/Aarambh"
             prop="OE">Other Events</a> */}
             <Link to="/EventsS/Other-Events" prop="GC">
-              Other Events
+              OTHER EVENTS
             </Link>
           </span>
         </div>
