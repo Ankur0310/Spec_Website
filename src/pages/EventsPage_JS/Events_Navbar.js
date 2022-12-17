@@ -6,7 +6,7 @@ function Events_Navbar() {
   return (
     <div className="nav_main_c">
       <div className="e_nav-bar">
-        <div className="links">
+        <div className="links_ev">
           <span>
             {/* <a href="/events/Aarambh"
             prop="GC" >General Championship</a> */}
@@ -15,7 +15,7 @@ function Events_Navbar() {
             </Link>
           </span>
         </div>
-        <div className="links">
+        <div className="links_ev">
           <span>
             {/* <a href="/events/Aarambh"
             prop="AH">Aarambh</a> */}
@@ -24,7 +24,7 @@ function Events_Navbar() {
             </Link>
           </span>
         </div>
-        <div className="links">
+        <div className="links_ev">
           <span>
             {/* <a href="/events/Aarambh"
             prop="OE">Other Events</a> */}

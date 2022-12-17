@@ -4,20 +4,20 @@
 
 
 .facilites_div{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background: #151515;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #8336aa;
     color: #fff;
-    border-radius: 64px;
-    margin-right: 50px;
-    margin-left: 50px;
+
     padding: 2rem 1rem 1rem 1rem;
    
 }
 
 .facilites_div h1{
-    font-size: 45px;
-    font-family: Roboto;
+    font-size: 450%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: underline;
     text-align: center;
     font-weight:700;
     margin-bottom: 30px;

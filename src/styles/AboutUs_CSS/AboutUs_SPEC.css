@@ -1,11 +1,9 @@
 .AboutUs_SPEC_box{
-    margin-top: 50px;
+    margin-top: 10px;
+   
+    background: #c3ab64de;
+    color: black;
 
-    background: #151515;
-    color: #fff;
-    border-radius: 64px;
-    margin-right: 50px;
-    margin-left: 50px;
     padding: 3rem 2rem 2rem 2rem;
     display: flex;
     flex-direction: row;
@@ -16,7 +14,7 @@
 }
 .AboutUs_SPEC_box h1{
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     font-size: 45px;
     

@@ -4,22 +4,22 @@ function Sports_Navbar() {
   return (
     <div className="nav_main_c">
       <div className="s_nav-bar">
-        <div className="links">
+        <div className="links_s">
           <span>
             <a href="/sports/facilities">Facilities</a>
           </span>
         </div>
-        <div className="links">
+        <div className="links_s">
           <span>
             <a href="/sports/coaches">Coaches</a>
           </span>
         </div>
-        <div className="links">
+        <div className="links_s">
           <span>
             <a href="/sports/rules">Rules</a>
           </span>
         </div>
-        <div className="links">
+        <div className="links_s">
           <span>
             <a href="/sports/hall_of_fame">Hall of Fame</a>
           </span>

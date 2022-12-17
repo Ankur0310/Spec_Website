@@ -5,7 +5,7 @@ function Events_herosection() {
   return (
     <div className="events_herosection">
       <img src={AarambhImg} className="events_herosection_img" alt="" />
-      <h1>AARAMBH</h1>
+      <h2>AARAMBH</h2>
     </div>
   );
 }

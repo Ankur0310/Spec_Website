@@ -1,20 +1,19 @@
 .events_desc{
-    padding: 0 0 50px 0;
+    margin-bottom: 10px;
 
 }
 .events_desc_box{
-    background: #151515;
-    border-radius: 64px;
+    background: #c3ab64de;
+    border-radius: 1%;
     text-align: center;
-    padding: 60px 50px;
-    margin-right: 100px;
-    margin-left: 100px;
-    color: #B8B8B8;
+    padding: 3% 4%;
+    color: #000000;
+    font-size: 120%;
 }
 .events_desc h1 {
     text-align: center;
     font-weight:bold;
-    font-size: 40px;
-    color: #B8B8B8;
+    font-size: 400%;
+    color: #000000;
     text-decoration: underline;
 }
