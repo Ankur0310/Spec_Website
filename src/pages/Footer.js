@@ -13,7 +13,7 @@ function Footer() {
             <b>SPEC IIT(ISM) Dhanbad</b>
           </h3>
           <h6>
-            <p>
+            <p className="col1p">
               The point of using Lorem Ipsum is that it has a more-or-less
               normal distribution of letters, as opposed to using 'Content here,
               content here', making it look like readable English. Many desktop
@@ -21,7 +21,7 @@ function Footer() {
             </p>
           </h6>
         </div>
-
+          <br />
         <div className="col3">
           <h3 className="heading">
             <b>Get in touch</b>
@@ -38,7 +38,7 @@ function Footer() {
             </a>
           </div>
         </div>
-
+<br /><br />
         <div className="col2">
           <h3 className="heading">
             <b>Quick links</b>
@@ -65,7 +65,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className="terms">Made with ❤️ by SPEC Web Team</p>
+      <p className="terms text-center">Made with ❤️ by SPEC Web Team</p>
     </footer>
   );
 }
