@@ -1,50 +1,112 @@
-import React from "react";
-import "../styles/layout/Navbar.css";
-import navicon from "../assets/logo.svg";
+import React, { useState } from "react";
+import "./navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-function Navbar() {
+import { NavLink } from "react-router-dom";
+
+const Navbar = () => {
+  const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <>
-      <div className="main-Navbar">
-        <div className="container navcont">
-          <div className="col-1.5">
-            <img src={navicon} alt="" srcset="" />
-          </div>
-          <div className="col-7 newcol">
-            <div className="links">
-              <span>
-                <a href="/">HOME</a>
-              </span>
-            </div>
-            <div className="links">
-              <span>
-                <a href="/events">EVENTS</a>
-              </span>
-            </div>
-            <div className="links">
-              <span>
-                <a href="/sports">SPORTS</a>
-              </span>
-            </div>
-            <div className="links">
-              <span>
-                <a href="/team">TEAM</a>
-              </span>
-            </div>
-            <div className="links">
-              <span>
-                <a href="/about">ABOUT US</a>
-              </span>
-            </div>
-          </div>
-          <div className="col-2"></div>
+      <nav className="main-nav">
+        {/* 1st logo part  */}
+        <div className="logo">
+          <h2>
+            SPEC
+          </h2>
         </div>
-      </div>
+
+        {/* 2nd menu part  */}
+        <div
+          className={
+            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
+          }>
+          <ul>
+            <li>
+              {/* <NavLink to="/">Home</NavLink> */}
+              <a href="/">HOME</a>
+            </li>
+            <li>
+              {/* <NavLink to="/events">Events</NavLink> */}
+              <a href="/events">EVENTS</a>
+            </li>
+            <li>
+              {/* <NavLink to="/sports">Sports</NavLink> */}
+              <a href="/sports">SPORTS</a>
+            </li>
+            <li>
+              {/* <NavLink to="/team">Team</NavLink> */}
+              <a href="/team">TEAM</a>
+            </li>
+            <li>
+              {/* <NavLink to="/about">About</NavLink> */}
+              <a href="/about">ABOUT US</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="social-media">
+          {/* hamburget menu start  */}
+          <div className="hamburger-menu">
+            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+              <GiHamburgerMenu />
+            </a>
+          </div>
+        </div>
+      </nav>
     </>
   );
-}
+};
 
 export default Navbar;
+
+// import React from "react";
+// import "../styles/layout/Navbar.css";
+// import navicon from "../assets/logo.svg";
+
+// function Navbar() {
+//   return (
+//     <>
+//       <div className="main-Navbar">
+//         <div className="container navcont">
+//           <div className="col-1.5">
+//             <img src={navicon} alt="" srcset="" />
+//           </div>
+//           <div className="col-7 newcol">
+//             <div className="links">
+//               <span>
+//                 <a href="/">HOME</a>
+//               </span>
+//             </div>
+//             <div className="links">
+//               <span>
+//                 <a href="/events">EVENTS</a>
+//               </span>
+//             </div>
+//             <div className="links">
+//               <span>
+//                 <a href="/sports">SPORTS</a>
+//               </span>
+//             </div>
+//             <div className="links">
+//               <span>
+//                 <a href="/team">TEAM</a>
+//               </span>
+//             </div>
+//             <div className="links">
+//               <span>
+//                 <a href="/about">ABOUT US</a>
+//               </span>
+//             </div>
+//           </div>
+//           <div className="col-2"></div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// }
+
+// export default Navbar;
 
 // import { useState, useEffect } from "react";
 // import { Navbar, Nav, Container } from "react-bootstrap";
