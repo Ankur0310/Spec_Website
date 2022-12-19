@@ -22,18 +22,7 @@ function AboutUs_SPEC() {
           blanditiis deleniti iusto perferendis sunt quas enim doloremque nihil
           facilis molestias, consectetur maiores necessitatibus minus quisquam
           odit harum aut error eveniet? Fuga, voluptatem maxime eveniet
-          doloribus facilis animi accusamus natus deserunt tempore voluptas
-          laudantium odit nostrum modi assumenda! Molestias, porro fugiat
-          mollitia in eligendi impedit ipsa! Minima temporibus eum error nisi
-          assumenda explicabo consequuntur nostrum delectus numquam minus!
-          Dignissimos blanditiis repellendus nam perspiciatis voluptatum
-          deserunt corrupti a sapiente numquam dicta tempore veniam sunt fuga
-          cupiditate, rerum quas omnis, pariatur placeat inventore autem!
-          Provident sequi dignissimos esse quam ea odio facere temporibus,
-          reprehenderit quae consectetur magni asperiores laudantium tempore
-          vitae, nemo unde! Voluptate, sapiente! Id velit, quam molestias maxime
-          sint reiciendis impedit veniam neque libero tenetur, eaque quos quis
-          alias doloribus accusamus doloremque.
+          
         </p>
       </div>
     </div>
