@@ -29,4 +29,8 @@
 }
 
 
-
+@media screen and (max-width: 641px) {
+  .events_herosection h2{
+    font-size: 400%;
+  }
+}

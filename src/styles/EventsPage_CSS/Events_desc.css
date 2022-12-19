@@ -18,3 +18,8 @@
     color: #000000;
     text-decoration: underline;
 }
+@media screen and (max-width: 540px){
+    .events_desc h1{
+        font-size: 200%;
+    }
+}
