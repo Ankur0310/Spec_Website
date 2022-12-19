@@ -86,10 +86,10 @@
     }
   }
   
-  /* @media screen and (min-width: 910px) and (max-width: 1180px) {
+  @media screen and (min-width: 910px) and (max-width: 1180px) {
     .carouselContainer
     {
-      width: 80%;
+      width: 120%;
     } 
     h3
     {
@@ -101,9 +101,9 @@
   }
   
   @media screen and (min-width: 320px) and (max-width: 910px) {
-    .carouselContainer
+    .slide
     {
-      width: 90%;
+      width: 120%;
     } 
     h3
     {
@@ -112,7 +112,7 @@
     h1 {
       font-size: 4.7rem;
     }
-  } */
+  }
 
  
 
