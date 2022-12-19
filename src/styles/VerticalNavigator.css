@@ -1,6 +1,4 @@
 
-
-  
   .navbar{
     position: fixed;
     top:50%; right:30px;
@@ -20,7 +18,9 @@
   }
   
   .navbar ul li .dot{
-    color:#fff;
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
     display: block;
     padding:5px 0;
   }
@@ -45,7 +45,7 @@
     position: absolute;
     top:50%; right:0;
     transform: translate(7px, -50%);
-    border-left: 7px solid #ffffff;
+    border-left: 7px solid black;
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
     display: block;
@@ -71,14 +71,14 @@
   
   .navbar ul li .dot.active::before,
   .navbar ul li:hover .dot::before{
-    border-color: #ffffff;
-    background: #ffffff;
+    border-color: black;
+    background: black;
   }
   
   .navbar ul li .dot::after{
     height:15px;
     width: 15px;
-    border: 2px solid #ffffff;
+    border: 2px solid black;
     right:-5px;
     transform: translateY(-50%) scale(0);
   }

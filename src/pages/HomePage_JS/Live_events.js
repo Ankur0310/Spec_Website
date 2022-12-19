@@ -19,7 +19,6 @@ function Live_events() {
             <br />
             <h3>Live event 1</h3>
           </div>
-
           <div className="carouselImgs slide">
             <img src={img2} alt="" />
             <br />

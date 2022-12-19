@@ -1,31 +1,80 @@
 .n_container{
     background-color: #ffd;
-    padding: 3% 0;
+    width: 100vw;
     height: 100vh;
+    padding-right: 17%;
+    padding-left: 17%;
     box-sizing: border-box;    
     display: flex;
     flex-direction: column;
     justify-content: center;
   
 }
+.n_box h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 4rem;
+}
+.n_box{
+    border: 5px solid black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
 
-.notice_p{
-    font-size: larger;
+}
+.n_box p{
+    font-size: 1.5rem;
+    
 }
 
-@media screen and (min-width: 680px) and (max-width: 940px) {
-    .n_container
+ @media screen and (min-width: 1277px) and (max-width: 1544px) {
+    .n_box p
     {
-        font-size: 0.85rem;
+        font-size: 1.5rem;
     }
-    .head
+    .n_box h1
     {
-        font-size: 4.5rem;
+        font-size: 4rem;
+    }
+
+  }
+ @media screen and (min-width: 914px) and (max-width: 1277px) {
+    .n_box p
+    {
+        font-size: 1.3rem;
+    }
+    .n_box h1
+    {
+        font-size: 3rem;
+    }
+
+  }
+ @media screen and (min-width: 638px) and (max-width: 914px) {
+    .n_box p
+    {
+        font-size: 1.1rem;
+    }
+    .n_box h1
+    {
+        font-size: 2rem;
+    }
+
+  }
+ @media screen and (max-width: 638px) {
+    .n_box p
+    {
+        font-size: 0.7rem;
+    }
+    .n_box h1
+    {
+        font-size: 1rem;
     }
 
   }
 
-  @media screen and (min-width: 510px)  and (max-width: 680px) {
+/*  @media screen and (min-width: 510px)  and (max-width: 680px) {
     .n_container
     {
         font-size: 0.78rem;
@@ -62,4 +111,4 @@
     }
     
 
-  }
+  } */
