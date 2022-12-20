@@ -10,7 +10,7 @@ function EventsBg() {
   return (
     <>
       <div className="wrapper">
-        {/* <Events_Navbar /> */}
+        <Events_Navbar />
         <Events_herosection />
         <Events_desc />
         <Events_gallery />

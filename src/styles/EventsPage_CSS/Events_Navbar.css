@@ -43,5 +43,11 @@
       opacity: 80%;    
     }
     
+
+    @media screen and (max-width: 768px) {
+      .e_nav-bar{
+        flex-direction: column;
+      }
+    }
   
   

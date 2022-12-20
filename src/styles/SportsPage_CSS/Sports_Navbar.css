@@ -47,12 +47,9 @@
     }
   
   
-    /* @media only screen  and (max-width: 415px) {
-      .nav-bar
-      {
-        display: flex;
+
+    @media screen and (max-width: 768px) {
+      .s_nav-bar{
         flex-direction: column;
-        justify-content: space-evenly;
-        margin-top: 10%;
       }
-    } */
+    }

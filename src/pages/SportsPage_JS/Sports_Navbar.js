@@ -6,6 +6,11 @@ function Sports_Navbar() {
       <div className="s_nav-bar">
         <div className="links_s">
           <span>
+            <a href="/">SPORTS</a>
+          </span>
+        </div>
+        <div className="links_s">
+          <span>
             <a href="/sports/facilities">FACILITIES</a>
           </span>
         </div>

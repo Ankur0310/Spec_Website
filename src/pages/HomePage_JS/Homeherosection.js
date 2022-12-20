@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/HomePage_CSS/Homeherosection.css";
-
+import stadium from "../../assets/stadium4.jpeg";
 function Homeherosection() {
   // const piyush = useRef();
   // var current_page = 1;
@@ -35,7 +35,9 @@ function Homeherosection() {
     // <div className="superScroll" ref={piyush}>
     //   {console.log(piyush)}
     <>
-      <div className="home_herosection"></div>
+      <div className="home_herosection">
+        <img src={stadium} className="stadium" />
+      </div>
       <div className="bosm-heading"></div>
       <div className="ph1"></div>
       <div className="ph2"></div>

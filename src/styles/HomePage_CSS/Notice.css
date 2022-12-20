@@ -1,5 +1,5 @@
 .n_container{
-    background-color: #c3ab64de;
+    background-color: #ffd;
     width: 100vw;
     height: 100vh;
     padding-right: 17%;
@@ -10,6 +10,7 @@
     justify-content: center;
   
 }
+
 .n_box h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
@@ -32,11 +33,11 @@
  @media screen and (min-width: 1277px) and (max-width: 1544px) {
     .n_box p
     {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .n_box h1
     {
-        font-size: 4rem;
+        font-size: 3.8rem;
     }
 
   }
@@ -65,11 +66,12 @@
  @media screen and (min-width: 640px) and (max-width: 876px) {
     .n_box p
     {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .n_box h1
     {
-        font-size: 1rem;
+        font-size: 2rem;
+        padding-bottom: 20px;
     }
 
   }
@@ -81,6 +83,7 @@
     .n_box h1
     {
         font-size: 1rem;
+        padding-bottom: 10px;
     }
 
   }

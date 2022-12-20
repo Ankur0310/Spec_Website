@@ -25,12 +25,16 @@
   }
 
   .carouselContainer {
-
+    width: 90%;
+    height: 96%;
+    margin: auto ;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-
 
   .carouselImgs {
     width: 100%;
@@ -75,14 +79,34 @@
   
 
 
-  /* @media screen and (min-width: 1277px) and (max-width: 1544px) {
-    .live_events h1
-    {
-        font-size: 1.5rem;
+   @media screen and (min-width: 1277px)  {
+  
+    .carouselContainer{
+      width: 70vw;
     }
  
 
-  } */
+  } 
+   @media screen and (min-width: 1400px)  {
+  
+    .carouselContainer{
+      width: 60vw;
+    }
+ 
+
+  } 
+   @media screen and (max-width: 400px)  {
+  
+    .carouselContainer{
+      width: 95vw;
+    }
+    .live_events h1{
+      font-size: 5rem;
+      padding-top: 100px;
+    }
+
+  } 
+
 
 
  

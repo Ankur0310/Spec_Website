@@ -48,7 +48,11 @@ function VerticalNavigator() {
           </li>
 
           <li>
-            <a href="#project" className="dot" data-scroll="project">
+            <a
+              href="#sports_section"
+              className="dot"
+              data-scroll="sports_section"
+            >
               <span>SPORTS</span>
             </a>
           </li>
@@ -64,7 +68,7 @@ function VerticalNavigator() {
       <section id="service">
         <Live_events />
       </section>
-      <section id="project">
+      <section id="sports_section">
         <Home_SportsSection />
       </section>
     </>
