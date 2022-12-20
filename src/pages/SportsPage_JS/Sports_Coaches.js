@@ -27,10 +27,10 @@ function Sports_Gallery() {
 
   return (
     <section className="project" id="project">
+      <h2>COACHES</h2>
       <Container>
         <Row>
           <Col size={12}>
-            <h2>COACHES</h2>
             {/* 
             <Tab.Container id="projects-tabs" defaultActiveKey="first"> */}
             {/* <Nav

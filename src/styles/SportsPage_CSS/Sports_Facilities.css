@@ -28,12 +28,12 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 910px) {
-    .facilites_div list-style
+    .facilites_div li
     {
-        font-size: 90%;
+        font-size: 20px;
     }
     .facilites_div h1
     {
-        font-size: 150%;
+        font-size: 200%;
     }
   }

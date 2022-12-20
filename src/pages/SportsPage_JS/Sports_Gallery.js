@@ -278,11 +278,10 @@ function Sports_Gallery() {
 
   return (
     <section className="project" id="project">
+      <h2>GALLERY</h2>
       <Container>
         <Row>
           <Col size={12}>
-            <h2>GALLERY</h2>
-
             <Row>
               {projects.map((project, index) => {
                 return <ProjectCard1 key={index} {...project} />;

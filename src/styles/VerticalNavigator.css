@@ -1,9 +1,12 @@
 
   .navbar{
     position: fixed;
-    top:50%; right:30px;
+    top:50%; right:50px;
     transform: translateY(-50%);
     z-index: 1000;
+    /* overflow-x: hidden; */
+    /* display: none; */
+  
   }
   
   .navbar ul{

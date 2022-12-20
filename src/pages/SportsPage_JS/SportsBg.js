@@ -13,7 +13,7 @@ function SportsBg() {
   return (
     <div>
       <div className="wrapper">
-        <Sports_Navbar />
+        {/* <Sports_Navbar /> */}
         <Sports_herosection />
         <Sports_gallery />
         {/* <Sports_Events /> */}

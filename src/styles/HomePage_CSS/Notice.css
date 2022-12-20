@@ -1,5 +1,5 @@
 .n_container{
-    background-color: #ffd;
+    background-color: #c3ab64de;
     width: 100vw;
     height: 100vh;
     padding-right: 17%;
@@ -43,15 +43,15 @@
  @media screen and (min-width: 914px) and (max-width: 1277px) {
     .n_box p
     {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .n_box h1
     {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
   }
- @media screen and (min-width: 638px) and (max-width: 914px) {
+ @media screen and (min-width: 876px) and (max-width: 914px) {
     .n_box p
     {
         font-size: 1.1rem;
@@ -62,7 +62,18 @@
     }
 
   }
- @media screen and (max-width: 638px) {
+ @media screen and (min-width: 640px) and (max-width: 876px) {
+    .n_box p
+    {
+        font-size: 0.9rem;
+    }
+    .n_box h1
+    {
+        font-size: 1rem;
+    }
+
+  }
+ @media screen and (max-width: 640px) {
     .n_box p
     {
         font-size: 0.7rem;

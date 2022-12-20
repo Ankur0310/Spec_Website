@@ -294,6 +294,7 @@ function Events_gallery() {
 
   return (
     <section className="project" id="project">
+      <h2>GALLERY</h2>
       <Container>
         <Row>
           <Col size={12}>
@@ -304,8 +305,6 @@ function Events_gallery() {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>GALLERY</h2>
-
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"

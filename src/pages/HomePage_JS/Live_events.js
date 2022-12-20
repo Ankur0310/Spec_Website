@@ -8,27 +8,17 @@ import img3 from "../../assets/e3.jpg";
 function Live_events() {
   return (
     <div className="live_events">
-      <br />
-      <div>
-        <h1 className="text-center nine">LIVE EVENTS</h1>
-      </div>
-      <div className="container">
-        <div className="carouselContainer">
-          <div className="carouselImgs slide">
-            <img src={img1} alt="" />
-            <br />
-            <h3>Live event 1</h3>
-          </div>
-          <div className="carouselImgs slide">
-            <img src={img2} alt="" />
-            <br />
-            <h3>Live event 2</h3>
-          </div>
-          <div className="carouselImgs slide">
-            <img src={img3} alt="" />
-            <br />
-            <h3>Live event 3</h3>
-          </div>
+      <h1>LIVE EVENTS</h1>
+
+      <div className="carouselContainer">
+        <div className="carouselImgs slide">
+          <img src={img1} alt="" />
+        </div>
+        <div className="carouselImgs slide">
+          <img src={img2} alt="" />
+        </div>
+        <div className="carouselImgs slide">
+          <img src={img3} alt="" />
         </div>
       </div>
     </div>

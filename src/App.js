@@ -16,7 +16,7 @@ import AboutUsBg from "./pages/AboutUs_JS/AboutUsBg";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Router>
         <Routes>
           <Route

@@ -3,12 +3,12 @@ import { Col } from "react-bootstrap";
 export const ProjectCard3 = ({ title, description, imgUrl }) => {
   return (
     <Col size={12} sm={6} md={4}>
-      <div className="proj-imgbx">
+      <div className="proj1-imgbx">
         <img src={imgUrl} />
-        {/* <div className="proj-txtx">
+        <div className="proj1-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
-        </div> */}
+        </div>
       </div>
     </Col>
   );

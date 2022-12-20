@@ -11,7 +11,7 @@
     margin-bottom: 10px; 
   }
   .sports_herosection h2{
-    font-size: 600%;
+    font-size: 650%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
     color: #002349;
@@ -22,4 +22,10 @@
 .sports_herosection_img{
     height: 100%;
     width: 100%;
+  }
+
+  @media screen and (max-width: 700px) {
+    .sports_herosection h2{
+      font-size: 400%;
+    }
   }

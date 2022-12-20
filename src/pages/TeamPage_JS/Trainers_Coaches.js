@@ -1,5 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard3 } from "./ProjectCard3";
+import "../../styles/TeamPage_CSS/Trainers_Coaches.css";
 import projImg1 from "../../assets/project-img1.png";
 import projImg2 from "../../assets/project-img2.png";
 import projImg3 from "../../assets/project-img3.png";
@@ -42,7 +43,8 @@ function Trainers_Coaches() {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project1" id="project1">
+      <h2>TRAINERS AND COACHES</h2>
       <Container>
         <Row>
           <Col size={12}>
@@ -53,8 +55,6 @@ function Trainers_Coaches() {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>TRAINERS AND COACHES</h2>
-
                   <Row>
                     {projects.map((project, index) => {
                       return <ProjectCard3 key={index} {...project} />;
