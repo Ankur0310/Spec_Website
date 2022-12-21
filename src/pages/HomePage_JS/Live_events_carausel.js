@@ -18,18 +18,18 @@ function nextSlide() {
   showSlide((currentSlide += 1));
 }
 
-function previousSlide() {
-  showSlide((currentSlide -= 1));
-}
-
-// window.onload = function () {
-//   showSlide(currentSlide);
-//   document.getElementById('prev').addEventListener('click', function () {
-//     previousSlide();
-//   })
-//   document.getElementById('next').addEventListener('click', function () {
-//     nextSlide();
-//   })
+// function previousSlide() {
+//   showSlide((currentSlide -= 1));
 // }
+
+window.onload = function () {
+  showSlide(currentSlide);
+  // document.getElementById('prev').addEventListener('click', function () {
+  //   previousSlide();
+  // })
+  // document.getElementById('next').addEventListener('click', function () {
+  //   nextSlide();
+  // })
+}
 
 setInterval(nextSlide, 5000);
