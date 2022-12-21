@@ -1,5 +1,5 @@
 .n_container{
-    background-color: #ffd;
+    background-color: #fff;
     width: 100vw;
     height: 100vh;
     padding-top: 40px;
@@ -18,9 +18,11 @@
     font-weight: bold;
     font-size: 4rem;
     padding-bottom: 30px;
+    color: #2b4263;
 }
 .n_box{
-    border: 5px solid black;
+    border: 5px solid #2b4263;
+    border-radius: 25px;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-right: 5%;
@@ -29,7 +31,7 @@
 }
 .n_box p{
     font-size: 1.5rem;
-    
+    color: #2b4263;
 }
 
  @media screen and (min-width: 1277px) and (max-width: 1544px) {
