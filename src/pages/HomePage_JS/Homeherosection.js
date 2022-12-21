@@ -36,7 +36,7 @@ function Homeherosection() {
     //   {console.log(piyush)}
     <>
       <div className="home_herosection">
-        <img src={stadium} className="stadium" />
+        <img src={stadium} className="homeheroImg" />
       </div>
       <div className="bosm-heading"></div>
       <div className="ph1"></div>
