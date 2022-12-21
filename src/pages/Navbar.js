@@ -47,11 +47,11 @@ const Navbar = () => {
 
         <div className="social-media">
           {/* hamburget menu start  */}
-          <div className="hamburger-menu">
-            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+            <button className="hamburger-menu" onClick={() => {setShowMediaIcons(!showMediaIcons); console.log("working")}}>
+          
               <GiHamburgerMenu />
-            </a>
-          </div>
+            {/* </a> */}</button>
+          
         </div>
       </nav>
     </>

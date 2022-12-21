@@ -1,10 +1,4 @@
 
-
-
-
-
-
-  
   .live_events
   {
     background-color:#00000060;
@@ -101,7 +95,7 @@
       width: 95vw;
     }
     .live_events h1{
-      font-size: 5rem;
+      font-size: 3rem;
       padding-top: 100px;
     }
 
