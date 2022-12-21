@@ -137,7 +137,6 @@
   .bosm-heading{
     top: 54%;
     width:90vw;
-   
     left: 50%;
   }
   
@@ -145,7 +144,7 @@
 
 
 
-@media only screen and (min-width:412px) and (max-width: 1062px) {
+@media only screen and (min-width:415px) and (max-width: 1062px) {
   .navbar{
     display: none;
   }
@@ -158,12 +157,12 @@
     left: -11%;
   }
   .bosm-heading{
-    top: 52%;
+    top: 59%;
     width:80vw;
-    left: 60%;
-    /* height: 100vh; */
+    left: 50%;
+   z-index: 100;
   }
-  .orient
+  /* .orient
   {
     opacity: 100%;
     width: 105vw;
@@ -174,7 +173,7 @@
     opacity: 100%;
     width: 105vw;
     height: 105vh;
-  }
+  } */
 }
 
 @media only screen  and (max-width: 415px) {
