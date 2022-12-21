@@ -24,6 +24,7 @@
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
   background-color: black;
   position: relative;
+  z-index: 10000;
 
 }
 
