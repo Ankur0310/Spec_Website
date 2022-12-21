@@ -135,10 +135,10 @@
     left: -20%;
   }
   .bosm-heading{
-    top: 35%;
+    top: 54%;
     width:90vw;
    
-    left: 60%;
+    left: 50%;
   }
   
 }
@@ -155,13 +155,12 @@
     width: 75%;
   }
   .ph2{
-    /* bottom: -19%; */
-    left: -4%;
+    left: -11%;
   }
   .bosm-heading{
-    top: 30%;
+    top: 52%;
     width:80vw;
-    left: 50%;
+    left: 60%;
     /* height: 100vh; */
   }
   .orient
