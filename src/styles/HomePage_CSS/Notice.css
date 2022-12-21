@@ -2,6 +2,8 @@
     background-color: #ffd;
     width: 100vw;
     height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-right: 17%;
     padding-left: 17%;
     box-sizing: border-box;    
@@ -14,8 +16,8 @@
 .n_box h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    text-decoration: underline;
     font-size: 4rem;
+    padding-bottom: 30px;
 }
 .n_box{
     border: 5px solid black;

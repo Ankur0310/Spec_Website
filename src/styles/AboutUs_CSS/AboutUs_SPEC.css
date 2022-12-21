@@ -4,7 +4,7 @@
     background: #fffbf0;
     color: black;
 
-    padding: 3rem 2rem 2rem 2rem;
+    padding: 3rem 8rem;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -31,8 +31,13 @@
     width: 100%;
 } */
 .AboutUs_SPEC_div2{
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    justify-content: center;
   padding: 10px 10px 10px 10px;
   font-size: 20px;
+ 
 
 }
 
@@ -41,6 +46,7 @@
     {
         display: flex;
         flex-direction: column;
+        padding: 3rem 3rem;
     }
     .AboutUs_SPEC_div1 img 
     {

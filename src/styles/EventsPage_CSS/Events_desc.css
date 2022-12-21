@@ -6,10 +6,14 @@
     background: #232e6c;
     color: #fff;
     border-radius: 1%;
-    text-align: center;
+    /* text-align: center; */
     padding: 3% 4%;
    
     font-size: 120%;
+}
+.events_desc_box p{
+    margin: auto;
+    max-width: 90%;
 }
 .events_desc h1 {
     text-align: center;
@@ -18,6 +22,7 @@
     font-size: 400%;
     color: #fff;
     text-decoration: underline;
+    padding-bottom: 20px;
 }
 @media screen and (max-width: 540px){
     .events_desc h1{
